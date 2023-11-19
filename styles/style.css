@@ -19,61 +19,37 @@
 /****************/
 /* jouw code */
 
+/*****************************************/
+/* als de browser 375px is */
+/*****************************************/
+
+
 body {
-    color: rgb(255, 255, 255);
+    margin: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 99,9%;
-	height: 100%;
-	background-image: url("/img/bg1.svg"); 
     background-color: rgb(255, 255, 255);
-    background-position: center; /* Center the image */
-    background-repeat:repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+main {
+	display: grid;
+
+}
+
+
+nav {
+
 }
 
 
 header {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+	background-color: rgb(226, 27, 226);
 }
 
 header img {
-	top: 60px;
-	position: absolute;
-
-}
-
-nav {
-	display: flex;
-	justify-content: space-around;
-    align-items: center;
-}
-
-nav ul {
-	top: 80px;
-	display: flex;
-	width: 80vw;
-	height: 25vh;
-	position: absolute;
-	background-color: rgb(19, 0, 146);
-
-	gap: 10px;
-	padding-left: 10em;
-	padding-right: 10em;
-	justify-content: space-around;
-    align-items: center;
-
-	list-style: none;
-	
-}
-
-nav ul li {
-	/* padding: 1em 1em 1em 1em; */
-}
-
-nav ul li a {
-	color: white;
-	font-size: 20px;
-	text-decoration: none;
+ height:fit-content;
+ max-width: 375px;
 }
