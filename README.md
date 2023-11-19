@@ -73,6 +73,90 @@ uitwerken voor kick-off werkgroep
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  <ul>
+
+  <li> Content: 
+    <ul> 
+    <li> Er wordt korte en duidelijke taal gebruikt. </li> 
+    </ul>
+  </li>
+   
+  <li> Global Code: 
+    <ul> 
+    <li> De HTML en CSS code is niet 100% valide. </li> 
+    <li> Niet elke pagina heeft een unieke titel. </li> 
+    </ul>
+  </li>
+
+  <li> Keyboard: 
+    <ul> 
+    <li> Niet elk element komt in focus style. Soms is de volgorde niet logisch. </li> 
+    </ul>
+  </li>
+
+  <li> Mobile and touch: 
+    <ul> 
+    <li> Er is geen horizontal scrolling. </li> 
+    <li> Buttons klein en weinig padding voor klikbaar veld. </li> 
+    <li> Buttons geen hover state. </li> 
+    <li> Dingen te dicht op elkaar om makkelijk te scrollen, zonder iets anders te hoveren.  </li> 
+    </ul>
+  </li>
+
+  <li> Headings: 
+    <ul> 
+    <li> Soms zijn er twee soortgelijke elementen en is de linker wel met tekst en is de ander een plaatje van tekst. Dit is 
+echt niet handig en toegangelijk. </li> 
+    </ul>
+  </li>
+
+<li> Lists: 
+    <ul> 
+    <li> Voor de navigatie is er wel een list gebruikt. </li> 
+    </ul>
+  </li>
+
+<li> Images: 
+    <ul> 
+    <li> Sommige plaatjes hebben een alt, maar deze beschrijft soms niet wat er in het plaatje te zien is. Zoals er staat "luister naar Return of the Dreem Canteen" in plaats van "Album cover van Return of the Dream Canteen"</li> 
+    </ul>
+  </li>
+
+<li> Media (Video and Audio): 
+    <ul> 
+    <li> De header bestaat uit een video met animaties erin. Deze start automatisch en kan niet gepauzeerd worden. </li> 
+    </ul>
+  </li>
+
+<li> Controls: 
+    <ul> 
+    <li> Niet alle linkjes zien er het zelfde uit of vallen op. </li> 
+    <li> Je ziet niet wanneer een link in een  nieuw tabblad opent. </li>
+     <li> De controls zoals knoppen hebben geen focusstates. </li>
+        <li> Er is geen skip link aanwezig. </li>
+    </ul>
+  </li>
+
+<li> Appearance: 
+    <ul> 
+    <li> Er is geen dark/light mode. Als ik mijn computer op dark-mode zet, veranderd er niks aan de website. </li> 
+    <li> Niet alle tekst op de website is echt tekst, maar vaak ook een afbeelding van tekst. Hierdoor past niet alle tekst zich aan. </li> 
+    </ul>
+  </li>
+
+<li> Animation: 
+    <ul> 
+    <li> De animatie in de header is een autoloop video. Andere animaties zijn nogal klein. Er is geen reduced-motion de vinden in de code. </li> 
+    </ul>
+  </li>
+
+<li> Color contrast: 
+    <ul> 
+    <li> Het contrast van de tekst is vaak niet goed. De tekst is namelijk wit of geel gekleurd op een lichte achtergrond. </li> 
+    </ul>
+  </li>
+
+  </ul>
 
 </details>
 
