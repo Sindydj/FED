@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rode piste.
 
   #### Je focus:
-  Ik wil mij graag fucussen op responsive design. 
+  Ik wil mij graag focussen op responsive design. 
  
 </details>
 
@@ -31,20 +31,36 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Je website
-
-<details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+uitwerken voor kick-off werkgroep
+<details closed>
+  <summary> Mobile </summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  <a href="https://redhotchilipeppers.com/"> Red Hot Chili Peppers website </a>
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Homepagina mobile (iPhone SE)
+  <img src="readme-images/rhcp_home_mobile.png" width="375px" alt="Screenshot homepagina mobile">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Muziek pagina mobile (iPhone SE)
+  <img src="readme-images/rhcp_music_mobile.png" width="375px" alt="Screenshot muziekpagina mobile">
+ 
+</details>
+
+<details open>
+  <summary> Desktop </summary>
+
+  ### Je opdracht:
+  <a href="https://redhotchilipeppers.com/"> Red Hot Chili Peppers website </a>
+
+  #### Screenshot(s) van de eerste pagina (large screen): 
+  Homepagina desktop (Macbook air 13)
+  <img src="readme-images/rhcp_home_desktop.png" width="375px" alt="Screenshot homepagina desktop">
+
+  #### Screenshot(s) van de tweede pagina (large screen):
+  Muziek pagina desktop (Macbook Air 13)
+  <img src="readme-images/rhcp_music_desktop.png" width="375px" alt="Screenshot muziekpagina dekstop">
  
 </details>
 
