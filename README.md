@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 uitwerken voor kick-off werkgroep
-<details closed>
+<details open>
   <summary> Mobile </summary>
 
   ### Je opdracht:
@@ -48,7 +48,7 @@ uitwerken voor kick-off werkgroep
  
 </details>
 
-<details open>
+<details closed>
   <summary> Desktop </summary>
 
   ### Je opdracht:
