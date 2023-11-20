@@ -27,9 +27,12 @@
 body {
     margin: 0;
 	padding: 0;
-	color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(255, 255, 255);
+	background-image: url(/img/background.jpeg);
+	background-repeat:repeat;
+	width: 100vw;
 }
 
 main {
@@ -39,7 +42,19 @@ main {
 
 
 nav {
+	background-color: #36499b;
+	padding: 1em 2em 1em 2em;
+	position: absolute ;
+	top: 10%
+}
 
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
 }
 
 
@@ -49,7 +64,15 @@ header {
 	background-color: rgb(226, 27, 226);
 }
 
-header img {
- height:fit-content;
- max-width: 375px;
+header video {
+ width: 100vw;
+}
+
+h2 { 
+	padding: 0.1em;
+	margin: 1em;
+    background-color: #ffec88;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    box-shadow: 0 10px 0 #36499b, -1px -1px 0 #36499b, 1px -1px 0 #36499b, -1px 1px 0 #36499b, 1px 1px 0 #36499b;
 }

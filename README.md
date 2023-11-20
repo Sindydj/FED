@@ -167,14 +167,16 @@ echt niet handig en toegangelijk. </li>
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele homepagina: 
+  <img src="readme-images/breakdown_home_mobile.jpg" width="375px" alt="breakdown van de hele homepagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+   ### de hele musicpagina: : 
+  <img src="readme-images/breakdown_music_mobile.jpg" width="375px" alt="breakdown van de hele musicpagina">
+  
+  ### dynamisch deel (navigatie): 
+  <img src="readme-images/breakdown_nav_mobile.jpg" width="375px" alt="breakdown van de navigatie">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+ 
 
 </details>
 
