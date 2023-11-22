@@ -38,14 +38,28 @@ body {
 main {
 	display: grid;
 
+
 }
 
-
 nav {
+	position:fixed ;
+	display: flex;
+	width: 100vw;
+}
+
+ a:first-of-type {
+margin: 1em auto 0em 2em;
+}
+
+a:nth-of-type(2) {
+	margin: 1em 2em 0em auto ;
+}
+
+nav ul {
 	background-color: #36499b;
-	padding: 1em 2em 1em 2em;
+	padding: 1em 5em 1em 2em;
 	position: absolute ;
-	top: 10%
+	top: 3em;
 }
 
 nav ul li {
@@ -62,10 +76,14 @@ header {
     display: flex;
     justify-content: center;
 	background-color: rgb(226, 27, 226);
+	width: 100vw;
+	height: 50vh;
 }
 
 header video {
- width: 100vw;
+width: 100vw;
+object-fit: cover;
+object-position: center;
 }
 
 h2 { 
@@ -75,4 +93,17 @@ h2 {
     font-size: 1.3rem;
     text-transform: uppercase;
     box-shadow: 0 10px 0 #36499b, -1px -1px 0 #36499b, 1px -1px 0 #36499b, -1px 1px 0 #36499b, 1px 1px 0 #36499b;
+}
+
+.merch {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+	gap: 2em;
+	justify-content: center;
+	align-items: center;
+}
+
+.merch img {
+	max-width: 40%;
+	margin: 1em;
 }
