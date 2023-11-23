@@ -38,8 +38,6 @@ body {
 
 main {
 	display: grid;
-
-
 }
 
 nav {
@@ -85,15 +83,19 @@ header video {
 width: 100vw;
 object-fit: cover;
 object-position: center;
+box-shadow: 0 1em 4em 8em #6b8dc3;
 }
 
-h2 { 
-	padding: 0.1em;
+main a { 
+	padding: 0.2em 2em 0.2em 2em;
+	width: 10em;
+	text-align: center;
 	margin: 1em;
     background-color: #ffec88;
     font-size: 1.3rem;
     text-transform: uppercase;
     box-shadow: 0 10px 0 #36499b, -1px -1px 0 #36499b, 1px -1px 0 #36499b, -1px 1px 0 #36499b, 1px 1px 0 #36499b;
+	text-decoration: none;
 }
 
 .merch {
@@ -105,6 +107,6 @@ h2 {
 }
 
 .merch img {
-	max-width: 40%;
-	margin: 1em;
+	max-width: 100%;
+	margin: 2em;
 }
