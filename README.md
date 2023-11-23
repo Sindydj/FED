@@ -206,10 +206,10 @@ echt niet handig en toegangelijk. </li>
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Navigatie in de header doen
+  - Bij img src geen . vergeten voor de /
+  - Comments bij de code doen
+  - Blijven documenteren
 
 </details>
 
