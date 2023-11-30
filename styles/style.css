@@ -11,7 +11,9 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-blue: #36499b;
+	--color-yellow: #ffec88;
+	--color-white:#FFFFFF;
 }
 
 /****************/
@@ -24,12 +26,59 @@
 /*****************************************/
 
 
+/* DTW font */
+@font-face {
+    font-family: 'DTW Medium';
+    src: url('../fonts/DTW_Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DTW Bold';
+	src: url('../fonts/DTW_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* D font */
+@font-face {
+    font-family: 'D Medium';
+    src: url('../fonts/D_Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* F font */
+@font-face {
+    font-family: 'F Normal';
+    src: url('../fonts/F_Normal.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'F Bold';
+    src: url('../fonts/F_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
 body {
     margin: 0;
 	padding: 0;
 	color: rgb(0, 0, 0);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(255, 255, 255);
+	font-family: 'F Normal', sans-serif;
+	font-size: 1.2em;
+    background-color: var(--color-white);
 	background-image: url(../img/background.jpeg);
 	background-repeat:repeat;
 	width: 100vw;
@@ -44,30 +93,40 @@ nav {
 	position:fixed ;
 	display: flex;
 	width: 100vw;
+	justify-content: center;
+	z-index: 2;
 }
 
  a:first-of-type {
 margin: 1em auto 0em 2em;
 }
 
-a:nth-of-type(2) {
+button:first-of-type {
 	margin: 1em 2em 0em auto ;
+	background: transparent;
+    border: none;
+	z-index: 2;
 }
 
 nav ul {
-	background-color: #36499b;
+	background-color: var(--color-blue);
 	padding: 1em 5em 1em 2em;
 	position: absolute ;
-	top: 3em;
+	top: 4em;
+	width: 90%;
+
 }
 
 nav ul li {
 	list-style: none;
+	text-align: left;
+	margin: 0.5em 0em 0.5em 0em;
 }
 
 nav ul li a {
 	color: white;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 
@@ -87,14 +146,16 @@ box-shadow: 0 1em 4em 8em #6b8dc3;
 }
 
 main a { 
+	font-family: 'DTW Bold';
+	color: var(--color-blue);
 	padding: 0.2em 2em 0.2em 2em;
 	width: 10em;
 	text-align: center;
 	margin: 1em;
-    background-color: #ffec88;
+    background-color: var(--color-yellow);
     font-size: 1.3rem;
     text-transform: uppercase;
-    box-shadow: 0 10px 0 #36499b, -1px -1px 0 #36499b, 1px -1px 0 #36499b, -1px 1px 0 #36499b, 1px 1px 0 #36499b;
+    box-shadow: 0 10px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 	text-decoration: none;
 }
 
@@ -107,6 +168,14 @@ main a {
 }
 
 .merch img {
-	max-width: 100%;
+	max-width: 90%;
 	margin: 2em;
+}
+
+h2 {
+	font-family: 'DTW Bold';
+}
+
+.navMobile {
+
 }

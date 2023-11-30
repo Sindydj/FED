@@ -3,35 +3,37 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Sindy de Jong">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Howdy FED2324</title>
+	<title> Red Hot Chilli Peppers </title>
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
-</head>
+	<link rel="preload" href="./fonts/DTW_Bold.woff2">
 
+</head>
 
 
 <body>
 
-	<nav>
-		<a href="index.html" title="naar de homepage">
-			<img src="./img/nav_logo_mobile.png"> </a>
-
-			<a href="https://www.rockstargames.com/" title="open menu">
-                <img src="./img/nav_button_mobile.png"> </a>
-
-			<ul>
-	<li> <a href="index.html"> Tour </a></li>
-	<li> <a href="index.html"> Music </a></li>
-	<li> <a href="index.html"> Merch </a></li>
-	<li> <a href="index.html"> Community </a></li>
-</ul>
-	</nav>
-
 	<header>
+
+		<nav>
+			<a href="index.html" title="naar de homepage">
+				<img src="./img/nav_logo_mobile.png"> </a>
+	
+				<button class="navMobile"> <img src="./img/nav_button_mobile.png"> </button><a href="https://www.rockstargames.com/" title="open menu">
+				 </a>
+	
+				<ul id="navMenu" aria-hidden="true">
+		<li> <a href="index.html"> Tour </a></li>
+		<li> <a href="index.html"> Music </a></li>
+		<li> <a href="index.html"> Merch </a></li>
+		<li> <a href="index.html"> Community </a></li>
+	</ul>
+		</nav>
+
 		<video autoplay loop muted preload="auto" poster="/img/rdrposter.jpeg">
 			<source src="./img/rhcp_header_video.mp4">
 		</video>

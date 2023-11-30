@@ -193,6 +193,7 @@ echt niet handig en toegangelijk. </li>
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
+
   ### Agenda voor meeting
   samen met je groepje opstellen
 
@@ -331,7 +332,7 @@ echt niet handig en toegangelijk. </li>
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. <a href="https://css-tricks.com/snippets/css/using-font-face-in-css/"> Bron voor @font-face </a>
   2. bron 2
   3. ...
 
