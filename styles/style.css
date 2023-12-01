@@ -87,6 +87,7 @@ body {
 
 main {
 	display: grid;
+	margin: 1em;
 }
 
 nav {
@@ -184,3 +185,22 @@ h2 {
 	display: block;
 }
 
+label {
+	display: block;
+	font:
+	  1rem 'Fira Sans',
+	  sans-serif;
+  }
+  
+  input,
+  label {
+	margin: 0.4rem 0;
+  }
+
+  .signup {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+	gap: 2em;
+	justify-content: center;
+	align-items: center;
+}

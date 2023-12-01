@@ -232,10 +232,9 @@ Een van de student assistenten hielp mij en zij gaf mij het advies om toggle te 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik moet gaan doorwerken. 
+  - Geen classes en id's gebruiken, maar selectoren. Behalve op grote secties in de main.
+  - Documenteren is het belangrijkste.
 
 </details>
 
@@ -324,8 +323,8 @@ Een van de student assistenten hielp mij en zij gaf mij het advies om toggle te 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. <a href="https://css-tricks.com/snippets/css/using-font-face-in-css/"> Bron voor @font-face </a>
-  2. bron 2
+  1. <a href="https://css-tricks.com/snippets/css/using-font-face-in-css/"> Bron van css-tricks voor @font-face </a>
+  2. <a href="https://www.w3schools.com/howto/howto_js_toggle_class.asp"> Bron van w3schools voor toggle </a>
   3. ...
 
 </details>
