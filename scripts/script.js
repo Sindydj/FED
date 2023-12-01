@@ -1,14 +1,15 @@
 // JavaScript Document
 console.log("hi");
 
-const navMenu = document.querySelector("#navMenu")
+const navMenu = document.querySelector("header nav ul")
 
-navMenu
+const buttonNav = document.querySelector("nav button")
 
 
-function navigatieMobile () {
-    navMenu.classList.add("invisible")
 
-}
+function visibilityNavMobile () {
 
-buttonNavMobile.addEventListener('click', veranderBallAnswer)
+    navMenu.classList.toggle("visible") 
+    }
+
+buttonNav.addEventListener('click', visibilityNavMobile)

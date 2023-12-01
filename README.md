@@ -193,17 +193,6 @@ echt niet handig en toegangelijk. </li>
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
@@ -226,15 +215,18 @@ echt niet handig en toegangelijk. </li>
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  <details closed>
+  <summary> Navigatie button </summary>
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+  #### Het probleem:
+Hier lukte het wel om de navigatie te laten verschijnen, maar niet om de navigatie weer te verbergen. 
+  <img src="readme-images/doc_nav_1.png" width="375px" alt="Screenshot van de niet werkende code.">
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  #### De oplossing:
+Een van de student assistenten hielp mij en zij gaf mij het advies om toggle te gebruiken. Nu werkt het wel.
+  <img src="readme-images/doc_nav_2.png" width="375px" alt="Screenshot van de werkende code.">
+ 
+</details>
 
 
   ### Verslag van meeting
