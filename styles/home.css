@@ -1,0 +1,83 @@
+.intro {
+    text-align: center;
+}
+
+.ad_icons {
+ text-align: center;
+}
+
+.ad_icons img:last-of-type {
+    width: 10em;
+}
+
+
+.intro a { 
+	font-family: 'DTW Bold';
+	color: var(--color-blue);
+	padding: 0.2em 2em 0.2em 2em;
+	width: 10em;
+	text-align: center;
+	margin: 1em;
+    background-color: var(--color-yellow);
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    box-shadow: 0 10px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+	text-decoration: none;
+}
+
+.merch {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+	gap: 2em;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+
+.merch img {
+	max-width: 90%;
+    margin: auto;
+}
+
+.signup {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+	gap: 2em;
+    text-align: center;
+}
+
+.signup img {
+margin: auto;
+}
+
+  
+
+  h1 {
+    order: 1;
+  }
+
+  form a {
+    font-family: 'F Normal';
+	color: var(--color-white);
+	padding: 0.3em;
+	text-align: center;
+    background-color: var(--color-red);
+    font-size: 0.7em;
+    text-transform: uppercase;
+    box-shadow: none;
+	text-decoration: none;
+    height: 3em;
+    width: 20em;
+  }
+
+  form {
+    display: flex;
+    border: 1px solid var(--color-red);
+  }
+
+  form input {
+max-width: auto;
+height: 3em;
+border: none;
+  }

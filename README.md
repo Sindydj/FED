@@ -192,6 +192,14 @@ echt niet handig en toegangelijk. </li>
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+<details closed>
+  <summary> Responsive grid voor images </summary>
+
+  #### Dit ging goed:
+Hier lukte het wel om de navigatie te laten verschijnen, maar niet om de navigatie weer te verbergen. 
+  <img src="readme-images/doc_nav_1.png" width="375px" alt="Screenshot van de niet werkende code.">
+
+</details>
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -224,6 +232,20 @@ Hier lukte het wel om de navigatie te laten verschijnen, maar niet om de navigat
 
   #### De oplossing:
 Een van de student assistenten hielp mij en zij gaf mij het advies om toggle te gebruiken. Nu werkt het wel.
+  <img src="readme-images/doc_nav_2.png" width="375px" alt="Screenshot van de werkende code.">
+</details>
+
+
+
+   <details closed>
+  <summary> Form </summary>
+
+  #### Het probleem:
+Hier lukte het niet om de breedte van de button aan te kunnen passen, zodat de volledige tekst op 1 regel komt te staan. Ookal geef ik hem een vaste waarde en staat van het input veld links op auto width.  
+  <img src="readme-images/doc_formbutton_1.png" width="375px" alt="Screenshot van de niet werkende code.">
+
+  #### De oplossing:
+....
   <img src="readme-images/doc_nav_2.png" width="375px" alt="Screenshot van de werkende code.">
  
 </details>
@@ -266,13 +288,9 @@ Een van de student assistenten hielp mij en zij gaf mij het advies om toggle te 
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+Vragen die ik heb:
+  - Hoe maak ik de button in mijn form zo breed als ik wil?
+  - goede css slider??
 
 
   ### Verslag van meeting
@@ -286,7 +304,22 @@ Een van de student assistenten hielp mij en zij gaf mij het advies om toggle te 
 </details>
 
 
+## Veranderingen tov originele site
 
+<details>
+  <summary> Dit zijn aanpassing die ik heb gemaakt waarvan ik denk dat zij de site verbeteren. </summary>
+
+  - Altijd de 1 zichtbaar, ook op home. 
+  - nav sticky. 
+  - Alle h2 koppen wit, duidelijker te lezen. 
+  - Alle h3 koppen geel en kleiner, want minder belangrijk maar door kleur vallen ze wel op. 
+  - volgorde van plaatjes homepagina bij community sectie. 
+
+
+  ### Je uitkomst - karakteristiek screenshots:
+  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+
+</details>
 
 
 ## Eindgesprek (week 5)
@@ -325,6 +358,6 @@ Een van de student assistenten hielp mij en zij gaf mij het advies om toggle te 
 
   1. <a href="https://css-tricks.com/snippets/css/using-font-face-in-css/"> Bron van css-tricks voor @font-face </a>
   2. <a href="https://www.w3schools.com/howto/howto_js_toggle_class.asp"> Bron van w3schools voor toggle </a>
-  3. ...
+  3. <a href="https://stackoverflow.com/questions/15314407/how-to-add-button-inside-an-input"> Bron van Stackoverflow voor form </a>
 
 </details>
