@@ -286,6 +286,18 @@ Hier lukte het niet om de breedte van de button aan te kunnen passen, zodat de v
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+<details closed>
+  <summary> Slider </summary>
+
+  #### Het probleem:
+Hier heb ik de code van  <a href="https://codepen.io/gradar/pen/BaavLLo?editors=1100"> een codepen voorbeeld </a> gebruikt. De slider was breder dan de viewport en ik wilde dat hij in de breedte meeschaalt met de viewport width. 
+  <img src="readme-images/doc_slider_1.png" width="375px" alt="Screenshot van de niet werkende code.">
+
+  #### De oplossing:
+Ik heb de code aangepast door de breedtes om te zetten in vw en daar ook de keyframes op aan te passen. 
+  <img src="readme-images/doc_slider_2.png" width="375px" alt="Screenshot van de werkende code.">
+</details>
+
 
   ### Agenda voor meeting
 Vragen die ik heb:

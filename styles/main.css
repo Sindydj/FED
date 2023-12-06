@@ -145,6 +145,33 @@ header {
 	height: 50vh;
 }
 
+@media screen and (min-width: 425px) {
+	
+	nav ul {
+		display: block;
+		display: flex;
+		background-color: transparent;
+		justify-content: center;
+	}
+
+	nav ul li a {
+	font-family: 'DTW Bold';
+	color: var(--color-yellow);
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+	position: absolute;
+}
+
+	nav button {
+		display: none;
+	}
+	
+	header {
+		height: 70vh;
+	}
+}
+
 header video {
 	width: 100vw;
 	object-fit: cover;
@@ -203,7 +230,21 @@ h3 {
 
 nav a:first-of-type {
 	order: 1;
+	animation: rotate 15s ease-in-out;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 nav h1 {
 	order: 2;
@@ -211,7 +252,13 @@ nav h1 {
 
 nav button {
 	order: 3;
+
 }
+
+.close {
+	transform: rotate(-45deg);
+}
+
 
 section {
 	margin: 1em;
