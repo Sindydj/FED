@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 /*********************/
@@ -10,10 +12,10 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
+	--color-text: #111;
 	--color-blue: #36499b;
 	--color-yellow: #ffec88;
-	--color-white:#FFFFFF;
+	--color-white: #FFFFFF;
 	--color-red: red;
 }
 
@@ -29,57 +31,57 @@
 
 /* DTW font */
 @font-face {
-    font-family: 'DTW Medium';
-    src: url('../fonts/DTW_Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'DTW Medium';
+	src: url('../fonts/DTW_Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'DTW Bold';
+	font-family: 'DTW Bold';
 	src: url('../fonts/DTW_Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* D font */
 @font-face {
-    font-family: 'D Medium';
-    src: url('../fonts/D_Medium.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'D Medium';
+	src: url('../fonts/D_Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }
 
 /* F font */
 @font-face {
-    font-family: 'F Normal';
-    src: url('../fonts/F_Normal.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'F Normal';
+	src: url('../fonts/F_Normal.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-    font-family: 'F Bold';
-    src: url('../fonts/F_Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'F Bold';
+	src: url('../fonts/F_Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
 }
 
 
 body {
-    margin: 0;
+	margin: 0;
 	padding: 0;
 	color: rgb(0, 0, 0);
 	font-family: 'F Normal', sans-serif;
 	font-size: 1.2em;
-    background-color: var(--color-white);
+	background-color: var(--color-white);
 	background-image: url(../img/background.jpeg);
-	background-repeat:repeat;
+	background-repeat: repeat;
 	width: 100vw !important;
 }
 
@@ -89,11 +91,10 @@ body img {
 
 main {
 	display: grid;
-	margin: 1em;
 }
 
 nav {
-	position:fixed ;
+	position: fixed;
 	display: flex;
 	width: 100vw;
 	z-index: 2;
@@ -102,21 +103,21 @@ nav {
 	justify-content: center;
 }
 
- header a:first-of-type {
-margin: 0em auto 0em 2em;
+header a:first-of-type {
+	margin: 0em auto 0em 2em;
 }
 
 header button:first-of-type {
-	margin: 0em 2em 0em auto ;
+	margin: 0em 2em 0em auto;
 	background: transparent;
-    border: none;
+	border: none;
 	z-index: 2;
 }
 
 nav ul {
 	background-color: var(--color-blue);
 	padding: 1em 5em 1em 2em;
-	position: absolute ;
+	position: absolute;
 	top: 2em;
 	width: 90%;
 	display: none;
@@ -137,26 +138,31 @@ nav ul li a {
 
 
 header {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 	background-color: rgb(226, 27, 226);
 	width: 100vw;
 	height: 50vh;
 }
 
 header video {
-width: 100vw;
-object-fit: cover;
-object-position: center;
-box-shadow: 0 1em 4em 8em #6b8dc3;
+	width: 100vw;
+	object-fit: cover;
+	object-position: center;
+	box-shadow: 0 1em 4em 8em #6b8dc3;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    line-height: 1.2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
 }
 
 p {
@@ -167,7 +173,7 @@ h1 {
 	font-family: 'DTW Medium';
 	color: var(--color-white);
 	font-size: 2rem;
-    text-transform: uppercase;
+	text-transform: uppercase;
 	text-shadow: -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 	margin: 0;
 	display: block;
@@ -179,16 +185,16 @@ h2 {
 	font-family: 'DTW Bold';
 	color: var(--color-white);
 	font-size: 1.5em;
-    text-transform: uppercase;
-	text-shadow:  0 5px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+	text-transform: uppercase;
+	text-shadow: 0 5px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 }
 
 h3 {
 	font-family: 'DTW Bold';
 	color: var(--color-yellow);
 	font-size: 1em;
-    text-transform: uppercase;
-	text-shadow:  0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+	text-transform: uppercase;
+	text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 }
 
 .visible {
@@ -209,9 +215,11 @@ nav button {
 
 section {
 	margin: 1em;
+	margin-top: 5em;
+	margin-bottom: 5em;
 }
 
- a {
+a {
 	color: var(--color-red);
 	text-decoration: none;
 }

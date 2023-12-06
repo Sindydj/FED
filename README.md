@@ -291,6 +291,7 @@ Hier lukte het niet om de breedte van de button aan te kunnen passen, zodat de v
 Vragen die ik heb:
   - Hoe maak ik de button in mijn form zo breed als ik wil?
   - goede css slider??
+  - object-fit: op slider werkt niet?
 
 
   ### Verslag van meeting
@@ -357,7 +358,12 @@ Vragen die ik heb:
   Nb. Vermeld de bronnen ook in je code.
 
   1. <a href="https://css-tricks.com/snippets/css/using-font-face-in-css/"> Bron van css-tricks voor @font-face </a>
+
   2. <a href="https://www.w3schools.com/howto/howto_js_toggle_class.asp"> Bron van w3schools voor toggle </a>
+
   3. <a href="https://stackoverflow.com/questions/15314407/how-to-add-button-inside-an-input"> Bron van Stackoverflow voor form </a>
+
+  4. <a href="https://codepen.io/gradar/pen/BaavLLo?editors=1100"> Bron van Codepen voor CSS slider </a>
+
 
 </details>
