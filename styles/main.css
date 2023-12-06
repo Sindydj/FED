@@ -94,7 +94,7 @@ main {
 }
 
 nav {
-	position: fixed;
+	position: absolute;
 	display: flex;
 	width: 100vw;
 	z-index: 2;
@@ -145,13 +145,25 @@ header {
 	height: 50vh;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 1024px) {
+	
+	nav {
+		background-color: var(--color-white);
+		margin-top: 0em;
+	}
 	
 	nav ul {
 		display: block;
 		display: flex;
 		background-color: transparent;
 		justify-content: center;
+		position: absolute;
+		top: 0em;
+		padding: 0;
+	}
+
+	nav ul li {
+		margin: 0;
 	}
 
 	nav ul li a {
@@ -160,16 +172,22 @@ header {
 	font-size: 1.5em;
 	text-transform: uppercase;
 	text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
-	position: absolute;
+
 }
 
 	nav button {
+		display: none;
+	}
+
+	nav h1 {
 		display: none;
 	}
 	
 	header {
 		height: 70vh;
 	}
+
+
 }
 
 header video {
@@ -228,7 +246,7 @@ h3 {
 	display: block;
 }
 
-nav a:first-of-type {
+nav a img:first-of-type {
 	order: 1;
 	animation: rotate 15s ease-in-out;
     animation-timing-function: linear;
