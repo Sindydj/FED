@@ -141,9 +141,11 @@ Zelf aangepast voor mijn site. */
 
 
 .slide-number {
-  /* color: #000; */
+display: inline;
+  margin-top: 100px;
   text-align: center;
-  /* font-size: 10em; */
+  font-size: 1.3em;
+  width: 70%;
 }
 
 @-webkit-keyframes slide {

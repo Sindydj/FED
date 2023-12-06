@@ -225,7 +225,12 @@ a {
 }
 
 footer {
+	margin-top: 5em;
 	text-align: center;
+}
+
+footer section {
+	margin-bottom: 2em;
 }
 
 footer img {
