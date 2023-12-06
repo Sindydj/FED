@@ -377,5 +377,7 @@ Vragen die ik heb:
 
   4. <a href="https://codepen.io/gradar/pen/BaavLLo?editors=1100"> Bron van Codepen voor CSS slider </a>
 
+  https://www.w3schools.com/css/css3_mediaqueries_ex.asp 
+
 
 </details>
