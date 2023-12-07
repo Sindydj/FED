@@ -7,10 +7,13 @@ const buttonNav = document.querySelector("nav button")
 
 const buttonImgNav = document.querySelector("nav button img")
 
+document.querySelector("nav ul").ariaHidden.te
+
 
 function visibilityNavMobile () {
 
     navMenu.classList.toggle("visible") 
+    navMenu.setAttribute('aria-hidden', false)
     buttonImgNav.classList.toggle("close")
     }
 

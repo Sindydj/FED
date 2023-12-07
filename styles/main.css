@@ -72,18 +72,15 @@
 	font-display: swap;
 }
 
-
-body {
-	margin: 0;
-	padding: 0;
-	color: rgb(0, 0, 0);
-	font-family: 'F Normal', sans-serif;
-	font-size: 1.2em;
-	background-color: var(--color-white);
-	background-image: url(../img/background.jpeg);
-	background-repeat: repeat;
-	width: 100vw !important;
-}
+.sr-only:not(:focus):not(:active) {
+	clip: rect(0 0 0 0); 
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap; 
+	width: 1px;
+  }
 
 body img {
 	max-width: 80vw;
@@ -112,6 +109,7 @@ header button:first-of-type {
 	background: transparent;
 	border: none;
 	z-index: 2;
+	width: 50px;
 }
 
 nav ul {
@@ -142,7 +140,6 @@ header {
 	justify-content: center;
 	background-color: rgb(226, 27, 226);
 	width: 100vw;
-	height: 50vh;
 }
 
 @media screen and (min-width: 1024px) {
@@ -179,14 +176,10 @@ header {
 		display: none;
 	}
 
-	nav h1 {
-		display: none;
-	}
 	
 	header {
 		height: 70vh;
 	}
-
 
 }
 
@@ -234,7 +227,7 @@ h2 {
 	text-shadow: 0 5px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 }
 
-h3 {
+h2+ p {
 	font-family: 'DTW Bold';
 	color: var(--color-yellow);
 	font-size: 1em;
@@ -242,11 +235,21 @@ h3 {
 	text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 }
 
+.signup p {
+	font-family: 'F normal';
+	color: black;
+	font-size: 1em;
+	text-transform:none;
+	text-shadow: none;
+	font-weight: 200;
+}
+
 .visible {
 	display: block;
 }
 
 nav a img:first-of-type {
+	width: 50px;
 	order: 1;
 	animation: rotate 15s ease-in-out;
     animation-timing-function: linear;

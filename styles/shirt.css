@@ -1,0 +1,192 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #111;
+	--color-blue: #36499b;
+	--color-yellow: #ffec88;
+	--color-white: #FFFFFF;
+	--color-red: red;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+/* jouw code */
+
+/*****************************************/
+/* als de browser 375px is */
+/*****************************************/
+
+
+/* DTW font */
+@font-face {
+	font-family: 'DTW Medium';
+	src: url('../fonts/DTW_Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DTW Bold';
+	src: url('../fonts/DTW_Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* D font */
+@font-face {
+	font-family: 'D Medium';
+	src: url('../fonts/D_Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* F font */
+@font-face {
+	font-family: 'F Normal';
+	src: url('../fonts/F_Normal.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'F Bold';
+	src: url('../fonts/F_Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+body img {
+	max-width: 80vw;
+}
+
+main {
+	display: grid;
+}
+
+nav {
+	position: absolute;
+	display: flex;
+	width: 100vw;
+	z-index: 2;
+	align-items: center;
+	margin-top: 0.8em;
+	justify-content: center;
+}
+
+header a:first-of-type {
+	margin: 0em auto 0em 2em;
+}
+
+header button:first-of-type {
+	margin: 0em 2em 0em auto;
+	background: transparent;
+	border: none;
+	z-index: 2;
+	width: 50px;
+}
+
+nav ul {
+	background-color: var(--color-blue);
+	padding: 1em 5em 1em 2em;
+	position: absolute;
+	top: 2em;
+	width: 90%;
+	display: none;
+
+}
+
+nav ul li {
+	list-style: none;
+	text-align: left;
+	margin: 0.5em 0em 0.5em 0em;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: rgb(226, 27, 226);
+	width: 100vw;
+}
+
+@media screen and (min-width: 1024px) {
+	
+	nav {
+		background-color: var(--color-white);
+		margin-top: 0em;
+	}
+	
+	nav ul {
+		display: block;
+		display: flex;
+		background-color: transparent;
+		justify-content: center;
+		position: absolute;
+		top: 0em;
+		padding: 0;
+	}
+
+	nav ul li {
+		margin: 0;
+	}
+
+	nav ul li a {
+	font-family: 'DTW Bold';
+	color: var(--color-yellow);
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+
+}
+
+	nav button {
+		display: none;
+	}
+
+	
+	header {
+		height: 70vh;
+	}
+
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	color: rgb(0, 0, 0);
+	font-family: 'F Normal', sans-serif;
+	font-size: 1.2em;
+	background-color: var(--color-white);
+	width: 100vw !important;
+}
+
+header {
+    height: 10vh;
+    }

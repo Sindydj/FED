@@ -304,15 +304,29 @@ Vragen die ik heb:
   - Hoe maak ik de button in mijn form zo breed als ik wil?
   - goede css slider??
   - object-fit: op slider werkt niet?
+  - h1: sr only
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - hgroup ipv div
+  - h3 moet p zijn
+  - secties een h -> sr only
+  - alt in de img, niet in de a
+  - icons in een ul
+
+  - slider in een ul en li 
+  - geen float in de slider
+  - css flex carousel
+  - text slider op vaste plek
+  
+  - tour pagina
+  - detailpagina shirt
+
+  - sr-only 
+  - reduced motion
+  - alt text en title
 
 </details>
 

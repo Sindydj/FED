@@ -20,7 +20,7 @@
 	<header>
 
 		<nav>
-			<a href="index.html" title="naar de homepage">
+			<a href="index.html" title="Go to the homepage">
 				<img src="./img/nav_logo_mobile.png"> </a>
 
 			<button> <img src="./img/nav_button_mobile.png"> </button><a href="https://www.rockstargames.com/"
@@ -34,7 +34,7 @@
 				<li> <a href="index.html"> Community </a></li>
 			</ul>
 
-			<h1> Home </h1>
+			<h1 class="sr-only"> Home </h1>
 
 		</nav>
 
@@ -48,75 +48,96 @@
 
 		<section class="intro">
 
-			<div> 
-			<h2> New studio album</h2>
-			<h3> Now available </h3>
-		</div>
+			<hgroup>
+				<h2> New studio album</h2>
+				<p> Now available </p>
+			</hgroup>
 
-		<div> 
-			<a href="index.html"> Purchase </a>
-			<a href="index.html"> Stream </a>
-		</div>
+			<hgroup>
+				<a href="index.html"> Purchase </a>
+				<a href="index.html"> Stream </a>
+			</hgroup>
 
 		</section>
 
 		<section class="ad_icons">
 
-			
-			<a href="index.html" alt="Spotify logo">
-				<img src="./img/logo_spotify.png"> </a>
+			<h2 class="sr-only"> Streaming platforms </h2>
 
-			<a href="index.html" alt="Apple Music logo">
-				<img src="./img/logo_apple.png"> </a>
+			<ul>
+				<li> <a href="index.html">
+						<img src="./img/logo_spotify.png" alt="Listen to us on Spotify"> </a>
+				</li>
 
-			<a href="index.html" alt="Youtube logo">
-				<img src="./img/logo_youtube.webp"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_apple.png" alt="Listen to us on Apple Music"> </a>
+				</li>
 
-			<a href="index.html" alt="Amazon logo">
-				<img src="./img/logo_amazon.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_youtube.webp" alt="Listen to us on Youtube"> </a>
+				</li>
 
-			<a href="index.html" alt="Tidal logo">
-				<img src="./img/logo_tidal.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_amazon.png" alt="Listen to us on Amazon"> </a>
+				</li>
 
-			<a href="index.html" alt="Deezer logo">
-				<img src="./img/logo_deezer.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_tidal.png" alt="Listen to us on Tidal"> </a>
+				</li>
 
-			<a href="index.html" alt="Soundcloud logo">
-				<img src="./img/logo_soundcloud.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_deezer.png" alt="Listen to us on Deezer"> </a>
+				</li>
 
-			<a href="index.html" alt="Audiomack logo">
-				<img src="./img/logo_audiomack.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_soundcloud.png" alt="Listen to us on Soundcloud"> </a>
+				</li>
 
-			<a href="index.html" alt="Pandora logo">
-				<img src="./img/logo_pandora.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_audiomack.png" alt="Listen to us on Audiomack"> </a>
+				</li>
 
-</section>
-		
+				<li> <a href="index.html">
+						<img src="./img/logo_pandora.png" alt="Listen to us on Pandora"> </a>
+				</li>
+
+			</ul>
+
+
+
+		</section>
+
+
 
 		<section class="slideshow">
-			<div class="slide-wrapper">
-				<div class="slide">
-					<h2 class="slide-number"> Tour dates and tickets</h2>
-					<a href="index.html" title="naar de homepage"> check it out </a> 
-				</div>
-				<div class="slide">
-					<h2 class="slide-number"> Tour dates and tickets </h2>
-					<a href="index.html" title="naar de homepage"> check it out </a> 
-				</div>
-				<div class="slide">
-					<h2 class="slide-number"> Tour dates and tickets </h2>
-					<a href="index.html" title="naar de homepage"> check it out </a> 
-				</div>
-			</div>
+
+			<h2 class="sr-only"> Slideshow </h2>
+
+			<ul class="slide-wrapper">
+				<li>
+					<h2> Tour dates and tickets</h2>
+					<a href="index.html" title="Look at the tourdates"> check it out </a>
+				</li>
+				<li>
+					<h2> Tour dates and tickets </h2>
+					<a href="index.html" title="Look at the tourdates"> check it out </a>
+				</li>
+				<li>
+					<h2> Tour dates and tickets </h2>
+					<a href="index.html" title="Look at the tourdates"> check it out </a>
+				</li>
+			</ul>
 		</section>
+
+
 
 
 		<section class="merch">
 
-			<div>
-			<h2> New merchandise </h2>
-			<h3> While supplies last </h3> 
-			</div>
+			<hgroup>
+				<h2> New merchandise </h2>
+				<p> While supplies last </p>
+			</hgroup>
 
 			<img src="./img/merch_shirt_front.png" alt="Merch shirt">
 			<img src="./img/merch_pants_front.png" alt="Merch pants">
@@ -126,22 +147,22 @@
 
 		<section class="signup">
 
-			<img src="./img/pink_flower.png" alt="Happy pink flower">
 
-			<div> 
-			<h2> Join the community </h2>
-			<p> Subscribe with your email address to keep up with the latest RHCP news, events, and exclusives. </p>
-			</div>
-			
-			<form>
+			<img src="./img/pink_flower.png">
 
-				<input type="email" id="email" pattern=".+@example\.com" size="30" required
-					placeholder="Enter your email" />
-				<a href="https://lp.constantcontactpages.com/su/fmCwCDF/RHCPMailingList"> Email sign up </a>
+			<hgroup>
+				<h2> Join the community </h2>
+				<p> Subscribe with your email address to keep up with the latest RHCP news, events, and exclusives. </p>
+			</hgroup>
+
+			<form method="post" action="https://lp.constantcontactpages.com/su/fmCwCDF/RHCPMailingList">
+
+				<input type="email" id="email" size="30" required placeholder="Enter your email" />
+				<button type="submit"> Email sign up </button>
 
 			</form>
 
-			<img src="./img/walking_heart.png" alt="Happy walking red heart">
+			<img src="./img/walking_heart.png">
 
 
 
@@ -154,30 +175,45 @@
 	<footer>
 		<section class="ad_icons">
 
-			<a href="index.html" alt="Facebook logo">
-				<img src="./img/logo_facebook_blue.png"> </a>
+			<ul>
 
-			<a href="index.html" alt="Twitter logo">
-				<img src="./img/logo_twitter_blue.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_facebook_blue.png" alt="Follow us on Facebook"> </a>
+				</li>
 
-			<a href="index.html" alt="Instagram logo">
-				<img src="./img/logo_instagram_blue.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_twitter_blue.png" alt="Follow us on Twitter"> </a>
+				</li>
 
-			<a href="index.html" alt="Spotify logo">
-				<img src="./img/logo_spotify_blue.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_instagram_blue.png" alt="Follow us on Instagram"> </a>
+				</li>
 
-			<a href="index.html" alt="Apple Music logo">
-				<img src="./img/logo_apple_blue.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_spotify_blue.png" alt="Follow us on Spotify"> </a>
+				</li>
 
-			<a href="index.html" alt="Youtube logo">
-				<img src="./img/logo_youtube_blue.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_apple_blue.png" alt="Follow us on Apple Music"> </a>
+				</li>
 
-			<a href="index.html" alt="Soundcloud logo">
-				<img src="./img/logo_soundcloud_blue.png"> </a>
+				<li> <a href="index.html">
+						<img src="./img/logo_youtube_blue.png" alt="Follow us on Youtube"> </a>
+				</li>
+
+				<li> <a href="index.html">
+						<img src="./img/logo_soundcloud_blue.png" alt="Follow us on Soundcloud"> </a>
+				</li>
+
+			</ul>
+
+
+
+
 
 		</section>
 
-		<img src="./img/whole_lotta_red_hot.png" alt="Whole lotta red hot">
+		<img src="./img/whole_lotta_red_hot.png">
 
 
 
