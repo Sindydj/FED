@@ -159,23 +159,24 @@ h1 {
   order: 1;
 }
 
-form a {
+form button  {
   font-family: 'F Normal';
   color: var(--color-white);
   padding: 0.3em;
   text-align: center;
   background-color: var(--color-red);
-  font-size: 0.7em;
+  font-size: 0.5em;
   text-transform: uppercase;
   box-shadow: none;
   text-decoration: none;
-  width: 20em;
   text-align: center;
+  width: auto;
 
 }
 
 form {
   display: flex;
+  justify-content: center;
 }
 
 form input {
