@@ -44,7 +44,7 @@ height: 50vh;
   padding: 0.2em 2em 0.2em 2em;
   width: 12em;
   text-align: center;
-  margin: 0.5em auto 0.5em auto;
+  margin: 0.5em auto 1em auto;
   background-color: var(--color-yellow);
   font-size: 1rem;
   text-transform: uppercase;
@@ -58,7 +58,7 @@ height: 50vh;
 
 
 section + .ad_icons {
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .ad_icons ul {
@@ -288,6 +288,10 @@ top: 45%;
 	
 	.slideshow {
 		height: 90vh;
+  }
+
+  header {
+    height: 80vh;
   }
 
 	}
