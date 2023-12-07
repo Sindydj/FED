@@ -138,14 +138,14 @@ nav ul li a {
 header {
 	display: flex;
 	justify-content: center;
-	background-color: rgb(226, 27, 226);
+	/* background-color: rgb(226, 27, 226); */
 	width: 100vw;
 }
 
 @media screen and (min-width: 1024px) {
 	
 	nav {
-		background-color: var(--color-white);
+		/* background-color: var(--color-white); */
 		margin-top: 0em;
 	}
 	
@@ -172,16 +172,27 @@ header {
 
 }
 
+nav ul li a:hover {
+	color: var(--color-white);
+}
+
 	nav button {
 		display: none;
 	}
 
-	
 	header {
 		height: 70vh;
 	}
 
+	h1 {
+		display: block;
+		position: absolute;
+		top: 2em;
+		text-align: center;
+	}
+
 }
+
 
 header video {
 	width: 100vw;
@@ -227,7 +238,7 @@ h2 {
 	text-shadow: 0 5px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 }
 
-h2+ p {
+h2 + p {
 	font-family: 'DTW Bold';
 	color: var(--color-yellow);
 	font-size: 1em;
