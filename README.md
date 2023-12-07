@@ -311,6 +311,8 @@ Vragen die ik heb:
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - hgroup ipv div
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+  
   - h3 moet p zijn
   - secties een h -> sr only
   - alt in de img, niet in de a
@@ -325,7 +327,9 @@ Vragen die ik heb:
   - detailpagina shirt
 
   - sr-only 
+  https://css-tricks.com/inclusively-hidden/
   - reduced motion
+
   - alt text en title
 
 </details>
