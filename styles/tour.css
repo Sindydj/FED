@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-    top: 5em;
+    top: 4em;
 }
 
 
@@ -139,6 +139,11 @@ p {
 
     main ul {
         margin-top: 15vh;
+    }
+
+    article a:hover {
+        background-color: var(--color-white);
+        cursor: pointer;
     }
 
 }
