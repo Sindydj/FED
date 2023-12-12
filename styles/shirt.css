@@ -24,12 +24,6 @@
 /****************/
 /* JOUW STYLING */
 /****************/
-/* jouw code */
-
-/*****************************************/
-/* als de browser 375px is */
-/*****************************************/
-
 
 /* DTW font */
 @font-face {
@@ -227,12 +221,12 @@ nav a:first-of-type img {
 	}
 }
 
-nav a:nth-of-type(3) img {
+nav a:nth-of-type(2) img {
 	width: 30px;
 	margin-right: 1em;
 }
 
-nav a:nth-of-type(4) img {
+nav a:nth-of-type(3) img {
 	height: 40px;
 	margin-right: 0.5em;
 }
@@ -277,7 +271,6 @@ a {
 
 section {
 	margin: 1em;
-	margin-top: 3em;
 	margin-bottom: 3em;
 }
 
@@ -504,6 +497,11 @@ header nav a span {
 	color: white;
 }
 
+
+/*****************************************/
+/* als de browser groter dan 1024px is */
+/*****************************************/
+
 @media screen and (min-width: 1024px) {
 
 	header a:nth-of-type(2) {
@@ -594,6 +592,26 @@ header nav a span {
 
 	.quick-links h4 {
 		text-align: center;
+	}
+
+}
+
+/***************************************************/
+/* als de bezoeker reduces motion aan heeft staan */
+/**************************************************/
+
+@media (prefers-reduced-motion) {
+
+	.ad_icons img {
+		animation: none;
+	}
+
+	nav a:first-of-type img {
+		animation: none;
+	}
+
+	.nav_open {
+		animation: none;
 	}
 
 }

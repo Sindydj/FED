@@ -104,12 +104,12 @@ section+.ad_icons {
   max-width: 90%;
   margin: auto;
   gap: 2em;
-  animation: flip 4s linear;
+  animation: tilt 4s linear;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-@keyframes flip {
+@keyframes tilt {
   0% {
     transform: rotate(0deg);
   }
@@ -276,6 +276,10 @@ Zelf aangepast voor mijn site. */
   }
 }
 
+/*****************************************/
+/* als de browser groter dan 1024px is */
+/*****************************************/
+
 @media screen and (min-width: 1024px) {
 
   .slideshow {
@@ -284,6 +288,34 @@ Zelf aangepast voor mijn site. */
 
   header {
     height: 80vh;
+  }
+
+}
+
+/***************************************************/
+/* als de bezoeker reduces motion aan heeft staan */
+/**************************************************/
+
+@media (prefers-reduced-motion) {
+
+  .ad_icons img {
+    animation: none;
+  }
+
+  nav a img:first-of-type {
+    animation: none;
+  }
+
+  .nav_open {
+    animation: none;
+  }
+
+  .slideshow ul {
+    animation: slide 25s ease infinite;
+  }
+
+  .merch img {
+    animation: none;
   }
 
 }

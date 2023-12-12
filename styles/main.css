@@ -239,32 +239,32 @@ nav button {
 
 .nav_open {
 	animation: fadeIn 0.5s ease-out;
-  }
-  
-  @keyframes fadeIn {
-  
+}
+
+@keyframes fadeIn {
+
 	0% {
-	  opacity: 0;
+		opacity: 0;
 	}
-  
+
 	100% {
-	  opacity: 1;
+		opacity: 1;
 	}
-  
-  }
-  
-  @keyframes fadeIn {
-  
+
+}
+
+@keyframes fadeIn {
+
 	0% {
-	  transform: translateY(-10vh);
+		transform: translateY(-10vh);
 	}
-  
+
 	100% {
-	  transform: translateY(0vh);
+		transform: translateY(0vh);
 	}
-  
-  }
-  
+
+}
+
 
 section {
 	margin: 1em;
@@ -289,6 +289,10 @@ footer section {
 footer img {
 	width: 10em;
 }
+
+/*****************************************/
+/* als de browser groter dan 1024px is */
+/*****************************************/
 
 @media screen and (min-width: 1024px) {
 
@@ -340,6 +344,34 @@ footer img {
 	section {
 		margin-top: 05em;
 		margin-bottom: 0em;
+	}
+
+}
+
+/***************************************************/
+/* als de bezoeker reduces motion aan heeft staan */
+/**************************************************/
+
+@media (prefers-reduced-motion) {
+
+	.ad_icons img {
+		animation: none;
+	}
+
+	nav a img:first-of-type {
+		animation: none;
+	}
+
+	.nav_open {
+		animation: none;
+	}
+
+	.slideshow ul {
+		animation: slide 25s ease infinite;
+	}
+
+	.merch img {
+		animation: none;
 	}
 
 }

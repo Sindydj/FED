@@ -131,10 +131,35 @@ p {
     margin: 0.5em;
 }
 
+/*****************************************/
+/* als de browser groter dan 1024px is */
+/*****************************************/
+
 @media screen and (min-width: 1024px) {
 
     main ul {
         margin-top: 15vh;
+    }
+
+}
+
+
+/***************************************************/
+/* als de bezoeker reduces motion aan heeft staan */
+/**************************************************/
+
+@media (prefers-reduced-motion) {
+
+    .ad_icons img {
+        animation: none;
+    }
+
+    nav a img:first-of-type {
+        animation: none;
+    }
+
+    .nav_open {
+        animation: none;
     }
 
 }

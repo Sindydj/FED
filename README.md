@@ -369,9 +369,9 @@ Vragen die ik heb:
 
 
   ### Dit was lastig/Is niet gelukt:
-Het is mij niet gelukt om te size knoppen bij de merch pagina van kleur te laten veranderen als erop geklikt is. 
-
+  - Het is mij niet gelukt om te size knoppen bij de merch pagina van kleur te laten veranderen als erop geklikt is. 
   https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName 
+  - winkelmand interactie niet gelukt 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
