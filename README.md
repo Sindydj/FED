@@ -373,6 +373,7 @@ Vragen die ik heb:
   https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName 
   - winkelmand interactie niet gelukt 
 
+
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -398,6 +399,10 @@ Vragen die ik heb:
   4. <a href="https://codepen.io/gradar/pen/BaavLLo?editors=1100"> Bron van Codepen voor CSS slider </a>
 
   https://www.w3schools.com/css/css3_mediaqueries_ex.asp 
+
+https://codepen.io/ChynoDeluxe/pen/poyNEay
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion 
 
 
 </details>
