@@ -1,18 +1,17 @@
-
 body {
-	margin: 0;
-	padding: 0;
-	color: rgb(0, 0, 0);
-	font-family: 'F Normal', sans-serif;
-	font-size: 1.2em;
-	background-color: var(--color-white);
-	background-image: url(../img/background.jpeg);
-	background-repeat: repeat;
-	width: 100vw !important;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-family: 'F Normal', sans-serif;
+  font-size: 1.2em;
+  background-color: var(--color-white);
+  background-image: url(../img/background.jpeg);
+  background-repeat: repeat;
+  width: 100vw !important;
 }
 
 header {
-height: 50vh;
+  height: 50vh;
 }
 
 
@@ -25,7 +24,6 @@ height: 50vh;
   margin-top: -1em;
 }
 
-
 .intro:first-of-type {
   margin: auto;
 }
@@ -35,7 +33,6 @@ height: 50vh;
   flex-wrap: wrap;
   margin-top: 1em;
 }
-
 
 .intro a {
   display: block;
@@ -56,8 +53,7 @@ height: 50vh;
   background-color: var(--color-white);
 }
 
-
-section + .ad_icons {
+section+.ad_icons {
   margin-top: 1em;
 }
 
@@ -68,9 +64,9 @@ section + .ad_icons {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
-max-width: 100vw;
-list-style: none;
-padding: 0;
+  max-width: 100vw;
+  list-style: none;
+  padding: 0;
 }
 
 .ad_icons img {
@@ -88,19 +84,16 @@ padding: 0;
   50% {
     transform: scaleY(1.3);
   }
-  
+
   100% {
     transform: scaleY(1);
   }
 
 }
 
-
-
 .merch {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
-
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -118,23 +111,23 @@ padding: 0;
 
 @keyframes flip {
   0% {
-    transform:rotate(0deg);
+    transform: rotate(0deg);
   }
 
   25% {
-    transform:rotate(-5deg);
+    transform: rotate(-5deg);
   }
 
   50% {
-    transform:rotate(0deg);
+    transform: rotate(0deg);
   }
 
   75% {
-    transform:rotate(5deg);
+    transform: rotate(5deg);
   }
-  
+
   100% {
-    transform:rotate(0deg);
+    transform: rotate(0deg);
   }
 
 }
@@ -146,7 +139,7 @@ padding: 0;
   gap: 2em;
   text-align: center;
   margin: 1em;
- align-items: center;
+  align-items: center;
 }
 
 .signup img {
@@ -154,12 +147,11 @@ padding: 0;
 }
 
 
-
 h1 {
   order: 1;
 }
 
-form button  {
+form button {
   font-family: 'F Normal';
   color: var(--color-white);
   padding: 0.3em;
@@ -193,7 +185,6 @@ form input:focus {
 /* Slider code van: https://codepen.io/gradar/pen/BaavLLo?editors=1100. 
 Zelf aangepast voor mijn site. */
 
-
 .slideshow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
@@ -210,16 +201,14 @@ Zelf aangepast voor mijn site. */
   width: 300vw;
   animation: slide 18s ease infinite;
   display: flex;
-    /* height: 70vh; */
 }
 
 .slideshow li {
   left: 0;
-  /* height: 70vh; */
   width: 100vw;
- background-repeat: no-repeat;
- background-position: center center;
- background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .slideshow li:nth-child(1) {
@@ -235,16 +224,14 @@ Zelf aangepast voor mijn site. */
   background-image: url(../img/slide_tour_3.jpeg);
 }
 
-
 .slideshow h2 {
-display: inline;
-position:relative;
-top: 40%;
+  display: inline;
+  position: relative;
+  top: 40%;
   text-align: center;
   font-size: 1.3em;
   width: 70%;
 }
-
 
 .slideshow a {
   display: block;
@@ -258,8 +245,8 @@ top: 40%;
   font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
-position:relative;
-top: 45%;
+  position: relative;
+  top: 45%;
 }
 
 .slideshow a:hover {
@@ -290,13 +277,13 @@ top: 45%;
 }
 
 @media screen and (min-width: 1024px) {
-	
-	.slideshow {
-		height: 60vh;
+
+  .slideshow {
+    height: 60vh;
   }
 
   header {
     height: 80vh;
   }
 
-	}
+}

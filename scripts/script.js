@@ -12,7 +12,8 @@ function visibilityNavMobile () {
 
     navMenu.classList.toggle("visible") 
     navMenu.setAttribute('aria-hidden', false)
-
+    navMenu.classList.add("nav_open")
+    buttonImgNav.classList.toggle("close")
     }
 
 buttonNav.addEventListener('click', visibilityNavMobile)

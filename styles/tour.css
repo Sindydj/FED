@@ -10,11 +10,6 @@ body {
     width: 100vw !important;
 }
 
-/* nav ul li:nth-of-type(1) {
-    color: var(--color-blue);
-    font-style: oblique;
-
-} */
 
 header {
     height: 50vw;
@@ -66,7 +61,6 @@ section+.ad_icons {
     100% {
         transform: scaleY(1);
     }
-
 
 }
 

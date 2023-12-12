@@ -73,14 +73,14 @@
 }
 
 .sr-only:not(:focus):not(:active) {
-	clip: rect(0 0 0 0); 
+	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
 	height: 1px;
 	overflow: hidden;
 	position: absolute;
-	white-space: nowrap; 
+	white-space: nowrap;
 	width: 1px;
-  }
+}
 
 body img {
 	max-width: 80vw;
@@ -120,7 +120,6 @@ nav ul {
 	top: 2em;
 	width: 90%;
 	display: none;
-
 }
 
 nav ul li {
@@ -139,67 +138,9 @@ nav ul li a {
 header {
 	display: flex;
 	justify-content: center;
-	/* background-color: rgb(226, 27, 226); */
 	width: 100vw;
 }
 
-@media screen and (min-width: 1024px) {
-	
-	nav {
-		/* background-color: var(--color-white); */
-		margin-top: 0em;
-	}
-	
-	nav ul {
-		display: block;
-		display: flex;
-		background-color: transparent;
-		justify-content: center;
-		position: absolute;
-		top: 0em;
-		padding: 0;
-	}
-
-	nav ul li {
-		margin: 0;
-	}
-
-	nav ul li a {
-	font-family: 'DTW Bold';
-	color: var(--color-yellow);
-	font-size: 1.5em;
-	text-transform: uppercase;
-	text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
-
-}
-
-nav ul li a:hover {
-	color: var(--color-white);
-}
-
-	nav button {
-		display: none;
-	}
-
-	header {
-		height: 70vh;
-	}
-
-	h1 {
-		display: block;
-		position: absolute;
-		top: 2em;
-		text-align: center;
-	}
-
-	section {
-
-	margin-top: 05em;
-	margin-bottom: 0em;
-	}
-
-
-}
 
 
 header video {
@@ -234,9 +175,7 @@ h1 {
 	text-shadow: -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 	margin: 0;
 	display: block;
-
 }
-
 
 h2 {
 	font-family: 'DTW Bold';
@@ -246,7 +185,7 @@ h2 {
 	text-shadow: 0 5px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 }
 
-h2 + p {
+h2+p {
 	font-family: 'DTW Bold';
 	color: var(--color-yellow);
 	font-size: 1em;
@@ -258,7 +197,7 @@ h2 + p {
 	font-family: 'F normal';
 	color: black;
 	font-size: 1em;
-	text-transform:none;
+	text-transform: none;
 	text-shadow: none;
 	font-weight: 200;
 }
@@ -271,18 +210,18 @@ nav a img:first-of-type {
 	width: 50px;
 	order: 1;
 	animation: rotate 15s ease-in-out;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
+	0% {
+		transform: rotate(0deg);
+	}
 
-    100% {
-        transform: rotate(360deg);
-    }
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 
@@ -292,13 +231,40 @@ nav h1 {
 
 nav button {
 	order: 3;
-
 }
 
 .close {
 	transform: rotate(-45deg);
 }
 
+.nav_open {
+	animation: fadeIn 0.5s ease-out;
+  }
+  
+  @keyframes fadeIn {
+  
+	0% {
+	  opacity: 0;
+	}
+  
+	100% {
+	  opacity: 1;
+	}
+  
+  }
+  
+  @keyframes fadeIn {
+  
+	0% {
+	  transform: translateY(-10vh);
+	}
+  
+	100% {
+	  transform: translateY(0vh);
+	}
+  
+  }
+  
 
 section {
 	margin: 1em;
@@ -322,4 +288,58 @@ footer section {
 
 footer img {
 	width: 10em;
+}
+
+@media screen and (min-width: 1024px) {
+
+	nav {
+		margin-top: 0em;
+	}
+
+	nav ul {
+		display: block;
+		display: flex;
+		background-color: transparent;
+		justify-content: center;
+		position: absolute;
+		top: 0em;
+		padding: 0;
+	}
+
+	nav ul li {
+		margin: 0;
+	}
+
+	nav ul li a {
+		font-family: 'DTW Bold';
+		color: var(--color-yellow);
+		font-size: 1.5em;
+		text-transform: uppercase;
+		text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+	}
+
+	nav ul li a:hover {
+		color: var(--color-white);
+	}
+
+	nav button {
+		display: none;
+	}
+
+	header {
+		height: 70vh;
+	}
+
+	h1 {
+		display: block;
+		position: absolute;
+		top: 2em;
+		text-align: center;
+	}
+
+	section {
+		margin-top: 05em;
+		margin-bottom: 0em;
+	}
+
 }

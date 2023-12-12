@@ -88,7 +88,6 @@
 	display: block;
 }
 
-
 main {
 	display: grid;
 }
@@ -128,7 +127,6 @@ nav ul {
 	height: 100vh;
 	display: none;
 	left: 0;
-
 }
 
 nav ul li {
@@ -155,105 +153,6 @@ header {
 
 }
 
-@media screen and (min-width: 1024px) {
-
-
-	header a:nth-of-type(2) {
-		margin-right: auto;
-	}
-
-	header button:first-of-type {
-		margin: 0em 2em 0em auto;
-	}
-
-	.merch-info {
-		align-items: center;
-	}
-
-
-	nav ul {
-		display: block;
-		display: flex;
-		background-color: transparent;
-		justify-content: center;
-		position: absolute;
-		top: 0em;
-		padding: 0;
-	}
-
-	nav ul li {
-		margin: 0;
-	}
-
-	nav ul li a {
-		font-family: 'F Normal';
-		color: var(--color-black);
-		font-size: 1.5em;
-		text-transform: capitalize;
-		text-shadow: none;
-
-	}
-
-	nav ul li a:hover {
-		text-decoration: underline;
-	}
-
-
-	nav button {
-		display: none;
-	}
-
-
-	header {
-		height: 10vh;
-	}
-
-	h1 {
-		display: block;
-		position: absolute;
-		top: 2em;
-		text-align: center;
-	}
-
-	section {
-
-		margin-top: 0.5em;
-		margin-bottom: 0em;
-	}
-
-
-	main .merch-info {
-		margin-left: 30em;
-	}
-
-	main .merch-pictures {
-		height: 100%;
-	}
-
-
-	.merch-buy {
-		max-width: 20em;
-	}
-
-	.buy-buttons button {
-		max-width: 20em;
-	}
-
-	.buy-buttons a {
-		max-width: 20em;
-	}
-
-	.quick-links ul {
-		justify-content: center;
-	}
-
-	.quick-links h4 {
-		text-align: center;
-	}
-
-}
-
-
 body {
 	margin: 0;
 	padding: 0;
@@ -263,8 +162,6 @@ body {
 	background-color: var(--color-white);
 	width: 100vw !important;
 }
-
-
 
 h1,
 h2,
@@ -290,7 +187,6 @@ h1 {
 	text-shadow: -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
 	margin: 0;
 	display: block;
-
 }
 
 
@@ -301,7 +197,6 @@ h2 {
 	text-transform: capitalize;
 	text-shadow: none;
 	font-weight: 100;
-
 }
 
 p {
@@ -342,7 +237,6 @@ nav a:nth-of-type(4) img {
 	margin-right: 0.5em;
 }
 
-
 nav a {
 	order: 2;
 }
@@ -358,11 +252,11 @@ nav button {
 }
 
 .nav_open {
-	animation: fade 0.3s ease-out;
+	animation: fadeIn 0.3s ease-out;
 
 }
 
-@keyframes fade {
+@keyframes fadeIn {
 
 	0% {
 		transform: translateX(-100vw);
@@ -381,13 +275,11 @@ a {
 }
 
 
-
 section {
 	margin: 1em;
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
-
 
 .merch-info {
 	display: grid;
@@ -402,7 +294,6 @@ section {
 	margin: 1em;
 	display: flex;
 	justify-content: center;
-
 }
 
 .merch-pictures img {
@@ -434,17 +325,10 @@ section {
 	cursor: pointer;
 }
 
-/* .size ul li:active {
-	color: var(--color-white);
-	background-color: var(--color-black);
-} */
-
 .selected-button {
 	color: var(--color-white) !important;
 	background-color: var(--color-black) !important;
 }
-
-
 
 
 /* Code van: https://codepen.io/ChynoDeluxe/pen/poyNEay */
@@ -535,15 +419,11 @@ section {
 	text-align: center;
 	width: 100%;
 	margin-top: 1em;
-
 }
-
-
 
 footer {
 	margin-top: 2em;
 	margin: 1em;
-
 }
 
 footer section {
@@ -563,7 +443,6 @@ footer img {
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
-
 }
 
 .quick-links ul li {
@@ -582,8 +461,6 @@ footer img {
 	list-style: none;
 	padding: 0;
 }
-
-
 
 
 .ad_icons img {
@@ -609,8 +486,7 @@ footer img {
 }
 
 
-
-/* getalletjes */
+/* getalletje van winkelmand */
 header nav a span {
 	position: absolute;
 	right: 1em;
@@ -628,3 +504,96 @@ header nav a span {
 	color: white;
 }
 
+@media screen and (min-width: 1024px) {
+
+	header a:nth-of-type(2) {
+		margin-right: auto;
+	}
+
+	header button:first-of-type {
+		margin: 0em 2em 0em auto;
+	}
+
+	.merch-info {
+		align-items: center;
+	}
+
+	nav ul {
+		display: block;
+		display: flex;
+		background-color: transparent;
+		justify-content: center;
+		position: absolute;
+		top: 0em;
+		padding: 0;
+	}
+
+	nav ul li {
+		margin: 0;
+	}
+
+	nav ul li a {
+		font-family: 'F Normal';
+		color: var(--color-black);
+		font-size: 1.5em;
+		text-transform: capitalize;
+		text-shadow: none;
+	}
+
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+
+	nav button {
+		display: none;
+	}
+
+
+	header {
+		height: 10vh;
+	}
+
+	h1 {
+		display: block;
+		position: absolute;
+		top: 2em;
+		text-align: center;
+	}
+
+	section {
+
+		margin-top: 0.5em;
+		margin-bottom: 0em;
+	}
+
+
+	main .merch-info {
+		margin-left: 30em;
+	}
+
+	main .merch-pictures {
+		height: 100%;
+	}
+
+
+	.merch-buy {
+		max-width: 20em;
+	}
+
+	.buy-buttons button {
+		max-width: 20em;
+	}
+
+	.buy-buttons a {
+		max-width: 20em;
+	}
+
+	.quick-links ul {
+		justify-content: center;
+	}
+
+	.quick-links h4 {
+		text-align: center;
+	}
+
+}
