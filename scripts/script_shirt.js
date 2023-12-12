@@ -10,7 +10,6 @@ const buttonImgNav = document.querySelector("nav button img")
 
 
 
-
 function visibilityNavMobile() {
 
     navMenu.classList.toggle("visible")
@@ -19,6 +18,9 @@ function visibilityNavMobile() {
 }
 
 buttonNav.addEventListener('click', visibilityNavMobile)
+
+
+const sizeButton = document.querySelector(".size ul li")
 
 function selectButton() {
     sizeButton.classList.toggle("selected_button")

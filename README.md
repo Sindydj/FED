@@ -350,11 +350,14 @@ Ik heb van de ul een flexbox gemaakt en bij de li left op 0 gezet.
 <details>
   <summary> Dit zijn aanpassing die ik heb gemaakt waarvan ik denk dat zij de site verbeteren. </summary>
 
-  - Altijd de 1 zichtbaar, ook op home. 
-  - nav sticky. 
   - Alle h2 koppen wit, duidelijker te lezen. 
   - Alle h3 koppen geel en kleiner, want minder belangrijk maar door kleur vallen ze wel op. 
+  - tekst gebruikt in plaats van plaatjes 
   - volgorde van plaatjes homepagina bij community sectie. 
+  - meer ruimte tussen de secties
+  - extra animaties toegevoegd.
+  - reduced motion
+  - titles bij buttons en plaatjes
 
 
   ### Je uitkomst - karakteristiek screenshots:
@@ -369,22 +372,42 @@ Ik heb van de ul een flexbox gemaakt en bij de li left op 0 gezet.
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eind_home_mobile.png" width="375px" alt="uitkomst home mobile">
+  <img src="readme-images/eind_home_desktop.png" width="375px" alt="uitkomst home desktop">
+
+  <img src="readme-images/eind_tour_mobile.png" width="375px" alt="uitkomst tour mobile">
+  <img src="readme-images/eind_tour_desktop.png" width="375px" alt="uitkomst tour desktop">
+
+  <img src="readme-images/eind_merch_mobile.png" width="375px" alt="uitkomst merch mobile">
+  <img src="readme-images/eind_merch_desktop.png" width="375px" alt="uitkomst merch desktop">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+Het is mij gelukt om een slider te maken met enkel css. De code hiervoor is erg simpel, ik heb feedback opgevolgd en enkel ul en li gebruikt. Eerst werd er nog float gebruikt, maar dit heb ik vervangen door flexbox te gebruiken. Het duurde wel een tijd voordat het mij gelukt was. Ik ben veel voorbeelden op internet afgegaan en daarom ben ik extra blij dat het toch is gelukt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/eind_top_slider.png" width="375px" alt="slider">
+
+  Ook ben ik erg trots dat het mij is geleukt om alle pagina's responsive te maken. In het begin vond ik dit erg lastig, maar met veel uitproberen en vragen stellen ben ik er uiteindelijk toch gekomen. Grid en flexbox weten te gebruiken heeft mij erg geholpen en dit zal ik ook in de toekomst altijd gaan toepassen. 
 
 
   ### Dit was lastig/Is niet gelukt:
-  - Het is mij niet gelukt om te size knoppen bij de merch pagina van kleur te laten veranderen als erop geklikt is. 
-  https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName 
-  - winkelmand interactie niet gelukt 
+
+Het is mij niet gelukt om de winkelmand een interactieve animatie te geven. Ik heb de code gebruikt van DLO (bron 9), maar ik heb geen idee waarom het niet werkt. 
+
+  <img src="readme-images/eind_minder_nav.png" width="375px" alt="merch nav">
+  
+  Hieronder is mijn HTML en JS code te zien. 
+  <img src="readme-images/eind_minder_cart.png" width="375px" alt="merch nav">
 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+Het is mij niet gelukt om te size knoppen bij de merch pagina van kleur te laten veranderen als erop geklikt is. Ik wilde dit doen door met javascript een class te togglen. 
+  <img src="readme-images/eind_minder_size.png" width="375px" alt="size knoppen">
+
+  Hieronder is mijn HTML en JS code te zien. 
+  <img src="readme-images/eind_minder_size_code.png" width="375px" alt="size knoppen">
+
+  
+
 </details>
 
 
@@ -415,6 +438,11 @@ Ik heb van de ul een flexbox gemaakt en bij de li left op 0 gezet.
 7. <a href="https://codepen.io/ChynoDeluxe/pen/poyNEay"> Bron van Codepen voor een quantity selector </a>
 
 8. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"> Bron van Mozilla voor reduced motion </a>
+
+9. <a href="https://codepen.io/shooft/pen/rNdqQdO"> Bron van DLO voor shopping cart animatie</a>
+
+10. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName"> Bron van Mozilla voor JS class selector </a>
+
 
 
 </details>
