@@ -504,9 +504,10 @@ header nav a span {
 
 @media screen and (min-width: 1024px) {
 
-	header a:nth-of-type(2) {
+	header a:nth-of-type(1) {
 		margin-right: auto;
 	}
+
 
 	header button:first-of-type {
 		margin: 0em 2em 0em auto;
@@ -533,7 +534,7 @@ header nav a span {
 	nav ul li a {
 		font-family: 'F Normal';
 		color: var(--color-black);
-		font-size: 1.5em;
+		font-size: 1em;
 		text-transform: capitalize;
 		text-shadow: none;
 	}
@@ -565,17 +566,22 @@ header nav a span {
 	}
 
 
-	main .merch-info {
-		margin-left: 30em;
-	}
+main {
+	justify-content: center;
+	margin: 5em;
+}
+
 
 	main .merch-pictures {
 		height: 100%;
+		width: 60vw;
 	}
 
 
 	.merch-buy {
 		max-width: 20em;
+		margin-left: 5em;
+
 	}
 
 	.buy-buttons button {
