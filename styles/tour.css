@@ -21,6 +21,7 @@ header {
     position: absolute;
 }
 
+
 h1 {
     top: 4em;
 }
@@ -141,10 +142,6 @@ p {
         margin-top: 15vh;
     }
 
-    article a:hover {
-        background-color: var(--color-white);
-        cursor: pointer;
-    }
 
 }
 
