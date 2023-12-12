@@ -22,12 +22,12 @@
 			<a href="index.html" title="naar de homepage">
 				<img src="./img/nav_logo_dark.avif"> </a>
 
-			<button title="open menu"> <img src="./img/icon_menu.png"> </button> 
+			<button title="open menu"> <img src="./img/icon_menu.png"> </button>
 
-			<a href="index.html" title="naar de homepage">
+			<a href="index.html" aria-label="search bar">
 				<img src="./img/icon_search.png"> </a>
 
-			<a class="shopping-cart" href="#" aria-label="shopping cart">
+			<a class="shopping-cart" aria-label="shopping cart">
 				<img src="./img/icon_cart.png"> <span>0</span> </a>
 
 			<ul aria-hidden="true">
@@ -45,13 +45,16 @@
 	<main>
 
 		<section class="merch-info">
+			<h2 class="sr-only"> Content about the leisure button up </h2>
 
 			<section class="merch-pictures">
+				<h2 class="sr-only"> Picture of the merch item </h2>
 				<img src="./img/merch_shirt_front.png" alt="Merch shirt">
 			</section>
 
 
 			<section class="merch-buy">
+				<h2 class="sr-only"> Name and price of the item </h2>
 
 				<p> Red hot chili peppers </p>
 				<h2> Mugschot Leisure Button Up </h2>
@@ -72,6 +75,7 @@
 
 
 				<section class="quantity-input">
+					<h2 class="sr-only"> Choose the quantity of the item </h2>
 					<button data-action="minus" type="button">-</button>
 					<input type="number" name="product-qty" min="0" max="10" value="1">
 					<button data-action="add" type="button">+</button>
@@ -79,6 +83,7 @@
 
 
 				<section class="buy-buttons">
+					<h2 class="sr-only"> Buy options </h2>
 
 					<button class="shop" title="add item to cart"> Add item to cart </button>
 
@@ -87,12 +92,14 @@
 				</section>
 
 				<section class="shirt-details">
+					<h2 class="sr-only"> Details about the item </h2>
 					<ul>
 						<li> Ready to ship </li>
 						<li> 100% rayon lightweight button up shirt</li>
 						<li> Nothed collar </li>
 						<li> Features full all-over print </li>
-						<li> <a href="https://shop.redhotchilipeppers.com/pages/sizing-charts" title="open sizing chart page"> Sizing Charts </a> </li>
+						<li> <a href="https://shop.redhotchilipeppers.com/pages/sizing-charts"
+								title="open sizing chart page"> Sizing Charts </a> </li>
 						<li> <b> All sales are final </b> </li>
 					</ul>
 
@@ -119,6 +126,7 @@
 		</section>
 
 		<section class="ad_icons">
+			<h2 class="sr-only"> Follow us on social media </h2>
 			<ul>
 				<li> <a href="index.html">
 						<img src="./img/logo_twitter_black.png" alt="Follow us on Twitter"> </a>
@@ -137,6 +145,8 @@
 				</li>
 
 			</ul>
+
+		</section>
 
 	</footer>
 

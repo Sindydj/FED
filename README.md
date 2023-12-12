@@ -318,18 +318,28 @@ Vragen die ik heb:
   - alt in de img, niet in de a
   - icons in een ul
 
-  - slider in een ul en li 
-  - geen float in de slider
+  ## slider
+
   - css flex carousel
+  - slider in een ul en li 
   - text slider op vaste plek
-  
+  - geen float in de slider
+  <details closed>
+  <summary> geen float </summary>
+
+  #### De oplossing:
+Ik heb van de ul een flexbox gemaakt en bij de li left op 0 gezet. 
+  <img src="readme-images/doc_slide_float_1.png" width="375px" alt="Screenshot van de werkende code.">
+</details>
+
+
+## nog maken
   - tour pagina
   - detailpagina shirt
 
-  - sr-only 
-  https://css-tricks.com/inclusively-hidden/
+## toegankelijkheid 
+  - sr-only: https://css-tricks.com/inclusively-hidden/
   - reduced motion
-
   - alt text en title
 
 </details>
@@ -398,11 +408,13 @@ Vragen die ik heb:
 
   4. <a href="https://codepen.io/gradar/pen/BaavLLo?editors=1100"> Bron van Codepen voor CSS slider </a>
 
-  https://www.w3schools.com/css/css3_mediaqueries_ex.asp 
+5. <a href="https://css-tricks.com/inclusively-hidden/"> Bron van CSS-tricks voor inclusively hidden </a>
 
-https://codepen.io/ChynoDeluxe/pen/poyNEay
+6. <a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp"> Bron van W3schools voor media queries </a>
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion 
+7. <a href="https://codepen.io/ChynoDeluxe/pen/poyNEay"> Bron van Codepen voor een quantity selector </a>
+
+8. <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion"> Bron van Mozilla voor reduced motion </a>
 
 
 </details>
