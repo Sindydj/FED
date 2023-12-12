@@ -6,9 +6,9 @@
 	<meta name="author" content="Sindy de Jong">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title> Red Hot Chilli Peppers </title>
+	<title> Red Hot Chili Peppers </title>
 
-	<link href="styles/main.css" rel="stylesheet">
+	<!-- <link href="styles/main.css" rel="stylesheet"> -->
 	<link href="styles/shirt.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
 
@@ -20,45 +20,134 @@
 	<header>
 
 		<nav>
+
+
 			<a href="index.html" title="naar de homepage">
 				<img src="./img/nav_logo_dark.avif"> </a>
 
-			<button> <img src="./img/nav_button_mobile.png"> </button><a href="https://www.rockstargames.com/"
+			<button> <img src="./img/icon_menu.png"> </button><a href="https://www.rockstargames.com/"
 				title="open menu">
 			</a>
 
+			<a href="index.html" title="naar de homepage">
+				<img src="./img/icon_search.png"> </a>
+
+			<a class="shopping-cart" href="#" aria-label="shopping cart">
+				<img src="./img/icon_cart.png"> <span>0</span> </a>
+
 			<ul aria-hidden="true">
-				<li> <a href="index.html"> Tour </a></li>
+				<li> <a href="tour.html"> Tour </a></li>
 				<li> <a href="index.html"> Music </a></li>
-				<li> <a href="index.html"> Merch </a></li>
 				<li> <a href="index.html"> Community </a></li>
 			</ul>
 
-			<h1> Store </h1>
+			<h1 class="sr-only"> Store </h1>
 
 		</nav>
 
 
 	</header>
 
-    <main>
+	<main>
 
-        <img src="./img/merch_shirt_front.png" alt="Merch shirt">
+		<section class="merch-info">
 
-        <h2> red </h2>
+			<section class="merch-pictures">
+				<img src="./img/merch_shirt_front.png" alt="Merch shirt">
+			</section>
 
-    </main>
+
+			<section class="merch-buy">
+
+				<p> Red hot chili peppers </p>
+				<h2> Mugschot Leisure Button Up </h2>
+
+				<h3> €68,95 EUR </h3>
+
+				<section class="size">
+					<h3> Size </h3>
+					<ul>
+						<li class="selected-button"> Small </li>
+						<li> Medium </li>
+						<li> Large </li>
+						<li> X-Large </li>
+						<li> XX-Large </li>
+						<li> 3X-Large </li>
+					</ul>
+				</section>
+
+
+				<section class="quantity-input">
+					<button data-action="minus" type="button">-</button>
+					<input type="number" name="product-qty" min="0" max="10" value="1">
+					<button data-action="add" type="button">+</button>
+				</section>
+
+
+				<section class="buy-buttons">
+
+					<button class="shop"> Add to cart </button>
+
+					<a href="shirt.html" title="Purchase the new album"> Buy with Shop pay </a>
+
+				</section>
+
+				<section class="shirt-details">
+					<ul>
+						<li> Ready to ship </li>
+						<li> 100% rayon lightweight button up shirt</li>
+						<li> Nothed collar </li>
+						<li> Features full all-over print </li>
+						<li> <a href="https://shop.redhotchilipeppers.com/pages/sizing-charts"> Sizing Charts </a> </li>
+						<li> <b> All sales are final </b> </li>
+					</ul>
+
+				</section>
+
+
+			</section>
+
+		</section>
+
+	</main>
 
 
 	<footer>
 
+		<section class="quick-links">
+			<h4> Quick Links </h4>
+			<ul>
+				<li> Sizing Charts </li>
+				<li> Return & Exchanges </li>
+				<li> Terms Of Service </li>
+				<li> Privacy Policy </li>
+				<li> Contact Us </li>
+			</ul>
+		</section>
 
-		<p> ©2023RHCP. All Rights Reserved. </p>
-		<p> <a href="https://redhotchilipeppers.com/privacy-policy/"> Privacy Policy and Terms of Use </a> </p>
+		<section class="ad_icons">
+			<ul>
+				<li> <a href="index.html">
+						<img src="./img/logo_twitter_black.png" alt="Follow us on Twitter"> </a>
+				</li>
+
+				<li> <a href="index.html">
+						<img src="./img/logo_facebook_black.png" alt="Follow us on Facebook"> </a>
+				</li>
+
+				<li> <a href="index.html">
+						<img src="./img/logo_instagram_black.png" alt="Follow us on Instagram"> </a>
+				</li>
+
+				<li> <a href="index.html">
+						<img src="./img/logo_youtube_black.png" alt="Follow us on Youtube"> </a>
+				</li>
+
+			</ul>
 
 	</footer>
 
-	<script defer src="scripts/script.js"> </script>
+	<script defer src="scripts/script_shirt.js"> </script>
 
 </body>
 

@@ -17,6 +17,8 @@
 	--color-yellow: #ffec88;
 	--color-white: #FFFFFF;
 	--color-red: red;
+	--color-black: black;
+	--color-grey: lightgrey;
 }
 
 /****************/
@@ -72,11 +74,20 @@
 	font-display: swap;
 }
 
-
-
-body img {
-	max-width: 80vw;
+.sr-only:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
 }
+
+.visible {
+	display: block;
+}
+
 
 main {
 	display: grid;
@@ -97,20 +108,26 @@ header a:first-of-type {
 }
 
 header button:first-of-type {
-	margin: 0em 2em 0em auto;
+	margin-right: auto;
 	background: transparent;
 	border: none;
 	z-index: 2;
-	width: 50px;
+	width: 40px;
+}
+
+header button img {
+	width: 40px;
 }
 
 nav ul {
-	background-color: var(--color-blue);
+	background-color: var(--color-white);
 	padding: 1em 5em 1em 2em;
 	position: absolute;
 	top: 2em;
 	width: 90%;
+	height: 100vh;
 	display: none;
+	left: 0;
 
 }
 
@@ -121,7 +138,7 @@ nav ul li {
 }
 
 nav ul li a {
-	color: white;
+	color: var(--color-black);
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -130,17 +147,30 @@ nav ul li a {
 header {
 	display: flex;
 	justify-content: center;
-	background-color: rgb(226, 27, 226);
+	background-color: transparent;
 	width: 100vw;
+	height: 10vh;
+	border: 1px solid lightgrey;
+	align-items: center;
+
 }
 
 @media screen and (min-width: 1024px) {
-	
-	nav {
-		background-color: var(--color-white);
-		margin-top: 0em;
+
+
+	header a:nth-of-type(2) {
+		margin-right: auto;
 	}
-	
+
+	header button:first-of-type {
+		margin: 0em 2em 0em auto;
+	}
+
+	.merch-info {
+		align-items: center;
+	}
+
+
 	nav ul {
 		display: block;
 		display: flex;
@@ -156,25 +186,72 @@ header {
 	}
 
 	nav ul li a {
-	font-family: 'DTW Bold';
-	color: var(--color-yellow);
-	font-size: 1.5em;
-	text-transform: uppercase;
-	text-shadow: 0 4px 0 var(--color-blue), -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+		font-family: 'F Normal';
+		color: var(--color-black);
+		font-size: 1.5em;
+		text-transform: capitalize;
+		text-shadow: none;
 
-}
+	}
+
+	nav ul li a:hover {
+		text-decoration: underline;
+	}
+
 
 	nav button {
 		display: none;
 	}
 
-	
+
 	header {
-		height: 70vh;
+		height: 10vh;
+	}
+
+	h1 {
+		display: block;
+		position: absolute;
+		top: 2em;
+		text-align: center;
+	}
+
+	section {
+
+		margin-top: 0.5em;
+		margin-bottom: 0em;
+	}
+
+
+	main .merch-info {
+		margin-left: 30em;
+	}
+
+	main .merch-pictures {
+		height: 100%;
+	}
+
+
+	.merch-buy {
+		max-width: 20em;
+	}
+
+	.buy-buttons button {
+		max-width: 20em;
+	}
+
+	.buy-buttons a {
+		max-width: 20em;
+	}
+
+	.quick-links ul {
+		justify-content: center;
+	}
+
+	.quick-links h4 {
+		text-align: center;
 	}
 
 }
-
 
 
 body {
@@ -187,6 +264,367 @@ body {
 	width: 100vw !important;
 }
 
-header {
-    height: 10vh;
-    }
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+p {
+	font-size: 1em;
+}
+
+h1 {
+	font-family: 'DTW Medium';
+	color: var(--color-white);
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-shadow: -1px -1px 0 var(--color-blue), 1px -1px 0 var(--color-blue), -1px 1px 0 var(--color-blue), 1px 1px 0 var(--color-blue);
+	margin: 0;
+	display: block;
+
+}
+
+
+h2 {
+	font-family: 'F Normal';
+	color: var(--color-black);
+	font-size: 1.5em;
+	text-transform: capitalize;
+	text-shadow: none;
+	font-weight: 100;
+
+}
+
+p {
+	font-family: 'F normal';
+	color: black;
+	font-size: 1em;
+	text-transform: none;
+	text-shadow: none;
+	font-weight: 200;
+}
+
+nav a:first-of-type img {
+	width: 50px;
+	order: 1;
+	animation: rotate 15s ease-in-out;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+nav a:nth-of-type(3) img {
+	width: 30px;
+	margin-right: 1em;
+}
+
+nav a:nth-of-type(4) img {
+	height: 40px;
+	margin-right: 0.5em;
+}
+
+
+nav a {
+	order: 2;
+}
+
+
+nav h1 {
+	order: 3;
+}
+
+nav button {
+	order: 1;
+
+}
+
+.nav_open {
+	animation: fade 0.3s ease-out;
+
+}
+
+@keyframes fade {
+
+	0% {
+		transform: translateX(-100vw);
+	}
+
+	100% {
+		transform: translate(1vw);
+	}
+
+}
+
+
+a {
+	color: var(--color-red);
+	text-decoration: none;
+}
+
+
+
+section {
+	margin: 1em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+
+.merch-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
+	margin: 0;
+}
+
+.merch-pictures {
+	border: 1px solid var(--color-grey);
+	max-width: 100%;
+	height: auto;
+	margin: 1em;
+	display: flex;
+	justify-content: center;
+
+}
+
+.merch-pictures img {
+	width: 80%;
+	object-fit: contain;
+}
+
+.size {
+	margin: 0;
+	margin-top: 2em;
+}
+
+.size ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+}
+
+.size ul li {
+	margin: 0.2em;
+	border: 1px solid var(--color-black);
+	border-radius: 10em;
+	padding: 0.2em 1em 0.2em 1em;
+	width: auto;
+	color: var(--color-black);
+	background-color: var(--color-white);
+	cursor: pointer;
+}
+
+/* .size ul li:active {
+	color: var(--color-white);
+	background-color: var(--color-black);
+} */
+
+.selected-button {
+	color: var(--color-white) !important;
+	background-color: var(--color-black) !important;
+}
+
+
+
+
+/* Code van: https://codepen.io/ChynoDeluxe/pen/poyNEay */
+
+.quantity-input {
+	color: black;
+	background: white;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	border: 1px solid black;
+	max-width: 8em;
+	height: 3em;
+	justify-content: center;
+}
+
+.quantity-input button:first-of-type {
+	color: black;
+	background-color: white;
+	border: none;
+	font-size: 1em;
+	margin-right: 1em;
+}
+
+.quantity-input button:nth-of-type(2) {
+	color: black;
+	background-color: white;
+	border: none;
+	font-size: 1em;
+	margin-left: 1em;
+}
+
+.quantity-input input {
+	border: none;
+	text-align: center;
+	font-size: 1em;
+}
+
+.quantity-input input:focus {
+	outline: none;
+}
+
+
+.shirt-details {
+	margin: 0;
+}
+
+.shirt-details ul {
+	list-style: none;
+	padding: 0;
+
+}
+
+.shirt-details ul li {
+	margin-bottom: 1em;
+}
+
+.shirt-details a {
+	color: var(--color-red);
+	text-decoration: underline 2px;
+	font-weight: 900;
+}
+
+
+.buy-buttons button {
+	display: block;
+	color: var(--color-black);
+	background-color: var(--color-white);
+	border: 1px solid var(--color-black);
+	padding: 0.2em 2em 0.2em 2em;
+	font-family: 'F normal';
+	color: black;
+	font-size: 1em;
+	text-transform: none;
+	text-shadow: none;
+	font-weight: 200;
+	width: 100%;
+	margin-top: 1em;
+	cursor: pointer;
+}
+
+.buy-buttons a {
+	display: block;
+	color: var(--color-white);
+	background-color: var(--color-blue);
+	padding: 0.2em 2em 0.2em 2em;
+	border: 1px solid var(--color-black);
+	text-align: center;
+	width: 100%;
+	margin-top: 1em;
+
+}
+
+
+
+footer {
+	margin-top: 2em;
+	margin: 1em;
+
+}
+
+footer section {
+	margin-bottom: 2em;
+}
+
+footer img {
+	width: 10em;
+}
+
+.quick-links {
+	justify-content: center;
+}
+
+.quick-links ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.quick-links ul li {
+	margin: 1em 3em 1em 0em;
+}
+
+
+.ad_icons ul {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1em;
+	max-width: 100vw;
+	list-style: none;
+	padding: 0;
+}
+
+
+
+
+.ad_icons img {
+	width: 1.5em;
+	animation: Ystretch 4s ease-in-out;
+	animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+	animation-iteration-count: infinite;
+}
+
+@keyframes Ystretch {
+	0% {
+		transform: scaleY(1);
+	}
+
+	50% {
+		transform: scaleY(1.3);
+	}
+
+	100% {
+		transform: scaleY(1);
+	}
+
+}
+
+
+
+/* getalletjes */
+header nav a span {
+	position: absolute;
+	right: 1em;
+	top: 0.4em;
+
+	min-width: 2em;
+	padding: 0.5em;
+
+	background-color: crimson;
+	border-radius: 1em;
+
+	font-size: .375em;
+	text-align: center;
+	line-height: 1.25em;
+	color: white;
+}
+

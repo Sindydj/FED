@@ -171,7 +171,8 @@ form button  {
   text-decoration: none;
   text-align: center;
   width: auto;
-
+  outline: none;
+  cursor: pointer;
 }
 
 form {
@@ -185,6 +186,9 @@ form input {
   border: 1px solid var(--color-red);
 }
 
+form input:focus {
+  outline: none;
+}
 
 /* Slider code van: https://codepen.io/gradar/pen/BaavLLo?editors=1100. 
 Zelf aangepast voor mijn site. */
