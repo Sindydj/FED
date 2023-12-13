@@ -34,8 +34,9 @@ Code van https://codepen.io/shooft/pen/rNdqQdO */
 /****************************/
 
 var shopButtons = document.querySelectorAll("button.shop");
-
-shopButtons.onclick = addToShoppingCart;
+for (let i = 0; i < shopButtons.length; i++) {
+    shopButtons[i].onclick = addToShoppingCart;
+}
 
 
 /***********************/
@@ -57,4 +58,11 @@ function addToShoppingCart() {
 
     /* tenslotte het nieuwe aantal in de HTML zetten */
     shoppingCartAmount.innerHTML = newAmount;
+
+    shoppingCartAmount.classList.add("updated");
+
+    shoppingCartAmount.addEventListener("animationend", () => {
+        shoppingCartAmount.classList.remove("updated");
+    });
+
 }
