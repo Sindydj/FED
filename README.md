@@ -279,11 +279,99 @@ Hier lukte het niet om de breedte van de button aan te kunnen passen, zodat de v
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"> Link naar pdf van test 2 </a>
+  <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:69d08e67-734b-329a-ac99-d41b2b177be0"> Link naar pdf van test 2 </a>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  
 
+  <ul>
+
+  <li> Content: 
+    <ul> 
+    <li> Er wordt korte en duidelijke taal gebruikt. </li> 
+    <li> alle buttons hebben een titel gekregen. Ook alle afbeeldingen met een a die dienen als knoppen hebben een titel. Formulieren hebben een label en alle afbeeldingen hebben een alt. Elke link wordt  beschreven met een alt. </li>
+    </ul>
+  </li>
+   
+  <li> Global Code: 
+    <ul> 
+    <li> Alle HTML en CSS is errorloos.. </li> 
+    <li> Elke pagina heeft een titel en als deze niet wordt weergeven dan zit er de class sr-only op.   </li> 
+    </ul>
+  </li>
+
+  <li> Keyboard: 
+    <ul> 
+    <li> Elk element komt in focus met tab en ook de volgorde klopt met de layout. </li> 
+    </ul>
+  </li>
+
+  <li> Mobile and touch: 
+    <ul> 
+    <li> Buttons heb ik groter gemaakt.  </li> 
+    <li> Ook heb ik een hover state toegevoegd.Buttons</li> 
+    <li> Buttons geen hover state. </li> 
+    <li> Daarnaast heb ik de margins tussen elementen aanpast, er zit nu meer ruimte tussen.  </li> 
+    </ul>
+  </li>
+
+  <li> Headings: 
+    <ul> 
+    <li> Soms zijn er twee soortgelijke elementen en is de linker wel met tekst en is de ander een plaatje van tekst. Dit is 
+echt niet handig en toegangelijk. </li> 
+    </ul>
+  </li>
+
+<li> Lists: 
+    <ul> 
+    <li> Voor elke opeenvolging van afbeeldingen en items is een ul gebruikt.  </li>
+    <li> Ook voor elementen zoals een slider en de navigatie.    </li> 
+    </ul>
+  </li>
+
+<li> Images: 
+    <ul> 
+    <li> Alle afbeeldingen hebben of een title of een alt, afhankelijk van hun functie.</li> 
+    <li> Daarnaast hebben decoratieve afbeeldingen een lege alt.</li> 
+      <li> Ook heb ik met de alt text de actie beschreven in plaats van alleen het plaatje. </li> 
+    </ul>
+  </li>
+
+<li> Media (Video and Audio): 
+    <ul> 
+    <li> Dde header bestaat uit een video met animaties erin. Deze is niet op pauze te zetten, maar wordt wel vervangen door een afbeelding als de gebruiker reduces motion aan heeft staan. </li> 
+    </ul>
+  </li>
+
+<li> Controls: 
+    <ul> 
+    <li> Alles wat ene link is ziet er hetzelfde uit en valt op </li> 
+    <li> Elke link heeft een hover state </li>
+     <li> Er is gedacht aan de focusstates </li>
+    </ul>
+  </li>
+
+<li> Appearance: 
+    <ul> 
+    <li>Op de originele site is bijna alle tekst een afbeelding. Ik heb dit aangepast door hier wel tekst voor de gebruiken. Hierdoor schaalt alle tekst nu wel mee.  </li> 
+    </ul>
+  </li>
+
+<li> Animation: 
+    <ul> 
+    <li> de animatie in de header is een autoloop video. Deze is niet te pauzeren, maar wordt wel vervangen door een afbeelding bij reduced motion.  </li> 
+    <li> Verder zijn de animaties subtiel en ook die gaan allemaal uit als reduced motion aan staat.  </li> 
+    </ul>
+  </li>
+
+<li> Color contrast: 
+    <ul> 
+    <li> Het contrast van de tekst is groter gemaakt. Ook heb ik consistentie toegepast. </li> 
+    </ul>
+  </li>
+
+  </ul>
 
 
 </details>
