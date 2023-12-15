@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 uitwerken voor kick-off werkgroep
-<details open>
+<details closed>
   <summary> Mobile </summary>
 
   ### Je opdracht:
@@ -43,8 +43,12 @@ uitwerken voor kick-off werkgroep
   <img src="readme-images/rhcp_home_mobile.png" width="375px" alt="Screenshot homepagina mobile">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Muziek pagina mobile (iPhone SE)
-  <img src="readme-images/rhcp_music_mobile.png" width="375px" alt="Screenshot muziekpagina mobile">
+  Tour pagina mobile (iPhone SE)
+  <img src="readme-images/rhcp_tour_mobile.png" width="375px" alt="Screenshot muziekpagina mobile">
+
+  #### Screenshot(s) van de tweede pagina (small screen):
+  Merch pagina mobile (iPhone SE)
+  <img src="readme-images/rhcp_merch_mobile.png" width="375px" alt="Screenshot muziekpagina mobile">
  
 </details>
 
@@ -59,8 +63,12 @@ uitwerken voor kick-off werkgroep
   <img src="readme-images/rhcp_home_desktop.png" width="375px" alt="Screenshot homepagina desktop">
 
   #### Screenshot(s) van de tweede pagina (large screen):
-  Muziek pagina desktop (Macbook Air 13)
-  <img src="readme-images/rhcp_music_desktop.png" width="375px" alt="Screenshot muziekpagina dekstop">
+  Tour pagina desktop (Macbook Air 13)
+  <img src="readme-images/rhcp_tour_desktop.png" width="375px" alt="Screenshot muziekpagina dekstop">
+
+   #### Screenshot(s) van de derde pagina (large screen):
+  Merch pagina desktop (Macbook Air 13)
+  <img src="readme-images/rhcp_merch_desktop.png" width="375px" alt="Screenshot muziekpagina dekstop">
  
 </details>
 
@@ -70,6 +78,8 @@ uitwerken voor kick-off werkgroep
 
 <details>
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+
+   <a href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:44c6bfa6-065c-3e5b-8160-85bdd085d9b0"> Link naar pdf van test 1 </a>
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
@@ -269,8 +279,12 @@ Hier lukte het niet om de breedte van de button aan te kunnen passen, zodat de v
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"> Link naar pdf van test 2 </a>
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+
 
 </details>
 
@@ -311,7 +325,7 @@ Vragen die ik heb:
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - hgroup ipv div
-  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup
+    <a href="  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup"> Bron van Mozilla voor hgroup </a>
   
   - h3 moet p zijn
   - secties een h -> sr only
@@ -338,7 +352,8 @@ Ik heb van de ul een flexbox gemaakt en bij de li left op 0 gezet.
   - detailpagina shirt
 
 ## toegankelijkheid 
-  - sr-only: https://css-tricks.com/inclusively-hidden/
+  - sr-only:
+  <a href="https://css-tricks.com/inclusively-hidden/"> Bron van CSStricks voor inclusively hidden </a>
   - reduced motion
   - alt text en title
 
@@ -404,14 +419,54 @@ Het is mij niet gelukt om te size knoppen bij de merch pagina van kleur te laten
   <img src="readme-images/eind_minder_size.png" width="375px" alt="size knoppen">
 
   Hieronder is mijn HTML en JS code te zien. 
-  <img src="readme-images/eind_minder_size_code.png" width="375px" alt="size knoppen">
-
-  
+  <img src="readme-images/eind_minder_size_code.png" width="375px" alt="size knoppen">  
 
 </details>
 
 
+## Verbeteringen na eindgesprek 
 
+<details open>
+  <summary> Aanpassingen na eindgesprek </summary>
+
+  ## Homepagina
+  - Bij hgroup moet de a in een p staan
+  - alt="" bij afbeedingen die voor de sier zijn. 
+
+  ## Tourpagina
+  - Niet alles was doorheen te tabben. Dit heb ik opgelost door tabindex toe te voegen aan de h2 en hgroup. Nu is alles tab-baar. 
+ <img src="readme-images/doc_tabindex.png" width="375px" alt="tabindex">  
+
+  ## Merchpagina
+  - De verhoudingen van de afbeelding zijn niet correct responsive bij een breedte tussen de 375px en 1024px in. 
+Dit heb ik aangepast door een extra media query toe te voegen voor tussen de 460px en 1024px waarin de breedte van de grid column is aangepast. Nu schaalt hij goed mee. 
+  <img src="readme-images/doc_shirt.png" width="375px" alt="code media query">  
+
+  - De winkelmand animatie lukte eerst niet, dit heb ik kort voor het gesprekje nog aangepast. 
+  Hieronder is een screenshot van mijn code te zien. Er miste 1 regel in mijn JS. 
+   <img src="readme-images/doc_winkelmand.png" width="375px" alt="js winkelmand">  
+
+   - Aantal items dat toegevoegd wordt aan winkelmand laten bepalen met de input van de quantity selector.
+   Eerst lukte dit niet. De getallen werden achterelkaar gezet als een reeks in plaats van bij elkaar opgeteld. 
+      <img src="readme-images/doc_quantity1.png" width="375px" alt="probleem"> 
+
+  Na gegoogled te hebben (bron 12) kwam ik erachter dat er parseInt voor de waardes moet, zodat js ze bij elkaar opteld. 
+    Na dit gedaan te hebben, werkte het!
+    <img src="readme-images/doc_quantity2.png" width="375px" alt="oplossing"> 
+
+   - Quantity selector laten werken met de buttons ernaast. Na wat gepriegel in javascript is het mij gelukt. 
+    <img src="readme-images/doc_quantityselector.png" width="375px" alt="oplossing"> 
+
+
+
+  ## Algemeen
+  - Meer custom properties gebruiken
+  - Tweede toegankeijkheidstest uitwerken. 
+  - HTML error-loos
+  - CSS error-loos
+
+
+</details>
 
 
 ## Bronnenlijst
@@ -443,6 +498,8 @@ Het is mij niet gelukt om te size knoppen bij de merch pagina van kleur te laten
 
 10. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName"> Bron van Mozilla voor JS class selector </a>
 
+11. <a href="https://web.dev/learn/html/focus#:~:text=The%20convention%20for%20non%2Dtabbable,set%20focus%20to%20focusable%20elements."> Bron van Web.dev voor tabindex </a>
 
+11. <a href="https://www.tutorialspoint.com/Are-both-addition-and-concatenation-same-in-JavaScript#:~:text=We%20can%20also%20apply%20the,it%20performs%20the%20simple%20addition."> Bron van Tutorialspont voor parseInt </a>
 
 </details>

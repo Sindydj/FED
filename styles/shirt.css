@@ -283,11 +283,12 @@ section {
 .merch-pictures {
 	border: 1px solid var(--color-grey);
 	max-width: 100%;
-	height: auto;
+	height: fit-content;
 	margin: 1em;
 	display: flex;
 	justify-content: center;
 }
+
 
 .merch-pictures img {
 	width: 80%;
@@ -336,28 +337,30 @@ section {
 	max-width: 8em;
 	height: 3em;
 	justify-content: center;
+
 }
 
-.quantity-input button:first-of-type {
+.quantity-input button {
 	color: black;
-	background-color: white;
+	background-color: var(--color-white);
 	border: none;
 	font-size: 1em;
 	margin-right: 1em;
+	cursor: pointer;
 }
 
-.quantity-input button:nth-of-type(2) {
-	color: black;
-	background-color: white;
-	border: none;
-	font-size: 1em;
-	margin-left: 1em;
-}
+
 
 .quantity-input input {
 	border: none;
 	text-align: center;
 	font-size: 1em;
+	text-align: center;
+	padding-right: 1em;
+}
+
+input::-webkit-inner-spin-button {
+	display: none;
 }
 
 .quantity-input input:focus {
@@ -520,6 +523,19 @@ header nav a span.updated {
 }
 
 
+/*********************************************/
+/* als de browser tussen de 460 en 1024px is */
+/*********************************************/
+
+@media screen and (min-width: 460px) {
+
+	.merch-info {
+		grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
+	}
+
+}
+
+
 /*****************************************/
 /* als de browser groter dan 1024px is */
 /*****************************************/
@@ -536,8 +552,10 @@ header nav a span.updated {
 	}
 
 	.merch-info {
+		grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));
 		align-items: center;
 	}
+
 
 
 	nav ul {
@@ -592,6 +610,7 @@ header nav a span.updated {
 
 	main {
 		justify-content: center;
+		/* margin: 1em 1em 5em 1em; */
 		margin: 5em;
 	}
 

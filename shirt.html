@@ -20,15 +20,15 @@
 		<nav>
 
 			<a href="index.html" title="naar de homepage">
-				<img src="./img/nav_logo_dark.avif"> </a>
+				<img src="./img/nav_logo_dark.avif" alt=""> </a>
 
-			<button title="open menu"> <img src="./img/icon_menu.png"> </button>
+			<button title="open menu"> <img src="./img/icon_menu.png" alt=""> </button>
 
 			<a href="index.html" aria-label="search bar">
-				<img src="./img/icon_search.png"> </a>
+				<img src="./img/icon_search.png" alt=""> </a>
 
 			<a class="shopping-cart" aria-label="shopping cart">
-				<img src="./img/icon_cart.png"> <span>0</span> </a>
+				<img src="./img/icon_cart.png" alt=""> <span>0</span> </a>
 
 			<ul aria-hidden="true">
 				<li> <a href="tour.html" title="Go to the tour page"> Tour </a></li>
@@ -76,9 +76,9 @@
 
 				<section class="quantity-input">
 					<h2 class="sr-only"> Choose the quantity of the item </h2>
-					<button data-action="minus" type="button">-</button>
+					<button id="min" data-action="minus" type="button">-</button>
 					<input type="number" name="product-qty" min="0" max="10" value="1">
-					<button data-action="add" type="button">+</button>
+					<button id="plus" data-action="add" type="button">+</button>
 				</section>
 
 
