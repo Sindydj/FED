@@ -546,7 +546,7 @@ Dit heb ik aangepast door een extra media query toe te voegen voor tussen de 460
 
   Na gegoogled te hebben (bron 12) kwam ik erachter dat er parseInt voor de waardes moet, zodat js ze bij elkaar opteld. 
     Na dit gedaan te hebben, werkte het!
-   <img src="readme-images/doc_quantity2.png" width="375px" alt="oplossing"> 
+<img src="readme-images/doc_quantity2.png" width="375px" alt="oplossing"> 
 
    - Quantity selector laten werken met de buttons ernaast. Na wat gepriegel in javascript is het mij gelukt. 
    <img src="readme-images/doc_quantityselector.png" width="375px" alt="oplossing"> 
