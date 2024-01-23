@@ -511,6 +511,12 @@ Het is mij niet gelukt om te size knoppen bij de merch pagina van kleur te laten
 
 </details>
 
+  ## Feedback
+  - Meer custom properties gebruiken
+  - Tweede toegankeijkheidstest uitwerken. 
+  - HTML error-loos
+  - CSS error-loos
+
 
 ## Verbeteringen na eindgesprek 
 
@@ -545,14 +551,11 @@ Dit heb ik aangepast door een extra media query toe te voegen voor tussen de 460
    - Quantity selector laten werken met de buttons ernaast. Na wat gepriegel in javascript is het mij gelukt. 
     <img src="readme-images/doc_quantityselector.png" width="375px" alt="oplossing"> 
 
-
-
   ## Algemeen
-  - Meer custom properties gebruiken
-  - Tweede toegankeijkheidstest uitwerken. 
+  - Meer custom properties gebruikt
+  - Tweede toegankeijkheidstest uitgewerkt. 
   - HTML error-loos
   - CSS error-loos
-
 
 </details>
 
