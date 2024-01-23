@@ -542,14 +542,14 @@ Dit heb ik aangepast door een extra media query toe te voegen voor tussen de 460
 
    - Aantal items dat toegevoegd wordt aan winkelmand laten bepalen met de input van de quantity selector.
    Eerst lukte dit niet. De getallen werden achterelkaar gezet als een reeks in plaats van bij elkaar opgeteld. 
-      <img src="readme-images/doc_quantity1.png" width="375px" alt="probleem"> 
+   <img src="readme-images/doc_quantity1.png" width="375px" alt="probleem"> 
 
   Na gegoogled te hebben (bron 12) kwam ik erachter dat er parseInt voor de waardes moet, zodat js ze bij elkaar opteld. 
     Na dit gedaan te hebben, werkte het!
-    <img src="readme-images/doc_quantity2.png" width="375px" alt="oplossing"> 
+   <img src="readme-images/doc_quantity2.png" width="375px" alt="oplossing"> 
 
    - Quantity selector laten werken met de buttons ernaast. Na wat gepriegel in javascript is het mij gelukt. 
-    <img src="readme-images/doc_quantityselector.png" width="375px" alt="oplossing"> 
+   <img src="readme-images/doc_quantityselector.png" width="375px" alt="oplossing"> 
 
   ## Algemeen
   - Meer custom properties gebruikt
